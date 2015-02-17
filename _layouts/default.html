@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
