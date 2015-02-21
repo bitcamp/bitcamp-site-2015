@@ -7,13 +7,18 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-// main styles
+// fonts
 
-// import avenir
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Regular", 400);
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Bold", 700);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Regular", 400);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Bold", 700);
+
 // import aleo
 
 body {
-  // set main font to avenir
+  font-family: 'Avenir';
+  font-weight: 400;
   font-size: 32px;
 }
 
