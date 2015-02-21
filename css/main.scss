@@ -7,6 +7,17 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+// main styles
+
+// import avenir
+// import aleo
+
+body {
+  // set main font to avenir
+  font-size: 32px;
+}
+
+
 //  imports
 @import "grid";
 @import "hero";
