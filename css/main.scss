@@ -7,7 +7,8 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-// fonts
+
+// FONTS
 
 @include font-face("Aleo", "/fonts/Aleo/Aleo-Regular", 400);
 @include font-face("Aleo", "/fonts/Aleo/Aleo-Bold", 700);
@@ -24,7 +25,29 @@ body {
 }
 
 
-//  imports
+// COLORS
+
+$white:			#FFF;
+$black:			#000;
+
+$sky-blue: 		#CBF2FF;
+$medium-blue:	#528CA5;
+$dark-blue:		#1a2e33;
+
+$light-brown:	#E5D8CE;
+$brown:			#7F6C5F;
+
+$orange:		#FF7040;
+$red: 			#FF3F46;
+
+
+// SPACING
+
+$space: 40px;
+
+
+// IMPORTS
+
 @import "layout";
 @import "hero";
 @import "info";
