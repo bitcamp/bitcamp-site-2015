@@ -14,10 +14,11 @@
 @include font-face("Avenir", "/fonts/Avenir/Avenir-Regular", 400);
 @include font-face("Avenir", "/fonts/Avenir/Avenir-Bold", 700);
 
-// import aleo
+$aleo: "Aleo", Georgia, Serif;
+$avenir: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 
 body {
-  font-family: 'Avenir';
+  font-family: $aleo;
   font-weight: 400;
   font-size: 32px;
 }
