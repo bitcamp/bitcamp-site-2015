@@ -1,5 +1,5 @@
 .menu {
-
+  margin-bottom: 180px;
 }
 
 .menu-list {
@@ -7,9 +7,24 @@
 }
 
 .menu-logo {
-
+  display: inline-block;
+  @include size(100px 20px);
+  @include hide-text;
+  background: url("images/logo.svg") center center no-repeat;
 }
 
 .menu-item {
+  display: inline-block;
+  margin-right: 20px;
 
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu-item-link {
+  font-family: $avenir;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5291A5;
 }
