@@ -6,11 +6,14 @@
 @include font-face("Avenir", "/fonts/Avenir/Avenir-Regular", 400);
 @include font-face("Avenir", "/fonts/Avenir/Avenir-Bold", 700);
 
-$aleo: "Aleo", Georgia, Serif;
-$avenir: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+$slab: "Aleo", Georgia, Serif;
+$sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+
+
+// BODY
 
 body {
-  font-family: $aleo;
+  font-family: $slab;
   font-weight: 400;
   font-size: 32px;
 }
@@ -19,9 +22,16 @@ body {
 // HEADINGS
 
 h1 {
-
+	line-height: 144px;
+	font-family: $sans;
+	font-size: 120px;
+	color: $dark-blue;
+	text-transform: uppercase;
 }
 
 h2 {
-	
+	font-size: 18px;
+	font-family: $sans;
+	color: $dark-blue;
+	text-transform: uppercase;
 }
