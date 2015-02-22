@@ -1,11 +1,8 @@
 .container {
-  @include clearfix;
-  max-width: 960px;
-  margin: 0 auto;
+  @include outer-container;
 }
 
 .row {
-  @include outer-container;
 }
 
 .row-center {}
