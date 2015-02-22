@@ -8,13 +8,13 @@
 }
 
 .menu-logo {
-  display: inline-block;
-  @include size(100px 24px);
-  // height: 24px;
-  @include hide-text;
-  background: url("/img/bitcamp-logo-text.svg") center center no-repeat;
-  background-size: cover;
   float: left;
+  img {
+    height: 24px;
+    // svg {
+    //   fill: $medium-blue;
+    // }
+  }
 }
 
 .menu-item {
