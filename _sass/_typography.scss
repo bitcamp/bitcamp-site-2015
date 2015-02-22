@@ -1,0 +1,27 @@
+
+// FONTS
+
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Regular", 400);
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Bold", 700);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Regular", 400);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Bold", 700);
+
+$aleo: "Aleo", Georgia, Serif;
+$avenir: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+
+body {
+  font-family: $aleo;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+
+// HEADINGS
+
+h1 {
+
+}
+
+h2 {
+	
+}

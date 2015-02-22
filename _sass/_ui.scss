@@ -3,7 +3,7 @@
 
   @include size(300px 80px);
   margin: 0 auto;
-  padding-top: 28px;
+  padding-top: 30px;
 
   background: url("/img/button.svg") center center no-repeat;
 
@@ -12,7 +12,7 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white;
 }
 
 .social-links {
