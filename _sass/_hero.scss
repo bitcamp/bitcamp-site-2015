@@ -3,10 +3,11 @@
   padding: 2*$space 0 3*$space 0;
   background-color: $sky-blue;
   text-align: center;
+  height: 100%;
 }
 
 .hero-text {
-  margin-bottom: 2*$space;
+  margin-bottom: $space;
   clear: both;
 }
 
