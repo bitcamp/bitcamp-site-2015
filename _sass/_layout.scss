@@ -1,8 +1,10 @@
 .container {
   @include outer-container;
+  @include clearfix;
 }
 
 .row {
+  @include clearfix;
 }
 
 .row-center {}
