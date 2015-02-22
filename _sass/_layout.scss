@@ -3,6 +3,10 @@
   @include clearfix;
 }
 
+section, .section {
+  margin-bottom: 3*$space;
+}
+
 .full {
   max-width: 100%;
 }
