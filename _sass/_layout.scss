@@ -5,21 +5,31 @@
 }
 
 .row {
-
+  @include outer-container;
 }
 
-.row-center {
+.row-center {}
 
+%col {
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #CBF2FF;
 }
 
 .col-large {
-
+  @extend %col;
+  @include span-columns(4);
+  @include omega(3n);
 }
 
 .col-med {
-
+  @extend %col;
+  @include span-columns(3);
+  @include omega(4n);
 }
 
 .col-small {
-
+  @extend %col;
+  @include span-columns(2);
+  @include omega(6n);
 }
