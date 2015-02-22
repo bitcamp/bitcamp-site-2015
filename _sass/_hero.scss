@@ -9,6 +9,9 @@
 .hero-text {
   margin-bottom: $space;
   clear: both;
+  @include media($mobile){
+  	display: none;
+  }
 }
 
 .hero-info {
@@ -21,6 +24,9 @@
   font-size: 24px;
   line-height: 80px;
   color: $medium-blue;
+   @include media($mobile){
+    	display: none;
+    }
 }
 
 #hero-info-date {
@@ -35,10 +41,28 @@
 #hero-info-logo {
   @include span-columns(2 of 12);
   img {
-    @include size(80px 80px)
+    @include size(80px 80px);
+    @include media($mobile){
+    	display: none;
+    }
   }
+  @include media($mobile){
+	font-size: 24px;
+  	line-height: 80px;
+  	color: $medium-blue;
+  	&:after{
+  		content: "April 10-12, 2015 \0020 \0020 \00B7 \0020 \0020 College Park, MD";
+  	}
+  	 @include span-columns(8 of 12);
+  	 @include shift(2 of 12);
+  }
+
 }
 
 .hero-cta {
+
+  @include media($mobile){
+	clear: both;
+  }
 
 }
