@@ -1,17 +1,46 @@
 .hero {
   @include clearfix;
-  padding: 70px 0 100px 0;
+  padding: 2*$space 0 3*$space 0;
   background-color: $sky-blue;
   text-align: center;
 }
 
 .hero-text {
-  margin-bottom: 110px;
+  margin-bottom: 2*$space;
   line-height: 144px;
   font-family: $avenir;
   font-size: 120px;
   color: $dark-blue;
   text-transform: uppercase;
+  clear: both;
+}
+
+.hero-info {
+  @include span-columns(12);
+  margin-bottom: 2*$space;
+}
+
+.hero-info-text {
+  @include span-columns(5 of 12);
+  font-size: 24px;
+  line-height: 80px;
+  color: $medium-blue;
+}
+
+#hero-info-date {
+  text-align: right;
+}
+
+#hero-info-city {
+  text-align: left;
+  @include omega;
+}
+
+#hero-info-logo {
+  @include span-columns(2 of 12);
+  img {
+    @include size(80px 80px)
+  }
 }
 
 .hero-cta {

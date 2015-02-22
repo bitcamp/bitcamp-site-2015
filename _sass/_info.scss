@@ -1,18 +1,19 @@
 .info {
-  padding: 160px 0 90px 0;
+  padding: 4*$space 0 3*$space 0;
   text-align: center;
 }
 
 .info-title {
-  margin-bottom: 90px;
+  margin-bottom: 2*$space;
   font-size: 18px;
   color: $dark-blue;
   text-transform: uppercase;
 }
 
 .info-text {
-  max-width: 780px;
-  margin: 0 auto 70px auto;
+  @include span-columns(10);
+  @include shift(1);
+  margin-bottom: 3*$space;
   line-height: 48px;
-  color: #7F6C5F;
+  color: $brown;
 }
