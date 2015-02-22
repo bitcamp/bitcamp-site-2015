@@ -8,3 +8,15 @@ footer {
 		color: $medium-blue;
 	}
 }
+
+.copy {
+	margin-bottom: $space;
+}
+
+.social-item-link {
+	float: left;
+	img {
+		width: 40px;
+		margin: 0 $space/2;
+	}
+}
