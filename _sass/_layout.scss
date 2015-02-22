@@ -1,5 +1,9 @@
-.container {
+.container, section {
   @include outer-container;
+}
+
+.full {
+  max-width: 100%;
 }
 
 .row {
@@ -9,8 +13,8 @@
 
 %col {
   height: 80px;
-  margin-bottom: 20px;
-  background-color: #CBF2FF;
+  margin-bottom: $space/2;
+  background-color: $sky-blue;
 }
 
 .col-large {

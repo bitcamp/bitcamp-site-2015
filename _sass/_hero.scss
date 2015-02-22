@@ -1,12 +1,12 @@
 .hero {
   @include clearfix;
-  padding: 70px 0 100px 0;
+  padding: 2*$space 0 3*$space 0;
   background-color: $sky-blue;
   text-align: center;
 }
 
 .hero-text {
-  margin-bottom: 110px;
+  margin-bottom: 3*$space;
   line-height: 144px;
   font-family: $avenir;
   font-size: 120px;
