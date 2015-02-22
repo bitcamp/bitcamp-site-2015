@@ -1,7 +1,7 @@
 .hero {
   @include clearfix;
   padding: 70px 0 100px 0;
-  background-color: #CBF2FF;
+  background-color: $sky-blue;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@
   line-height: 144px;
   font-family: $avenir;
   font-size: 120px;
-  color: #26424C;
+  color: $dark-blue;
   text-transform: uppercase;
 }
 
