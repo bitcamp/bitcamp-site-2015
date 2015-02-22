@@ -1,24 +1,27 @@
 .menu {
+  @include clearfix;
   margin-bottom: 180px;
 }
 
 .menu-list {
-  @include span-columns(6);
+  float: right;
 }
 
 .menu-logo {
-  @include span-columns(6);
   display: inline-block;
-  @include size(100px 20px);
+  @include size(100px 24px);
+  // height: 24px;
   @include hide-text;
   background: url("/img/bitcamp-logo-text.svg") center center no-repeat;
+  background-size: cover;
+  float: left;
 }
 
 .menu-item {
   display: inline-block;
   margin-right: 20px;
   text-align: right;
-  
+
   &:last-child {
     margin-right: 0;
   }
