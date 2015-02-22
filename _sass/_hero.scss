@@ -6,12 +6,40 @@
 }
 
 .hero-text {
-  margin-bottom: 3*$space;
+  margin-bottom: 2*$space;
   line-height: 144px;
   font-family: $avenir;
   font-size: 120px;
   color: $dark-blue;
   text-transform: uppercase;
+  clear: both;
+}
+
+.hero-info {
+  @include span-columns(12);
+  margin-bottom: 2*$space;
+}
+
+.hero-info-text {
+  @include span-columns(5 of 12);
+  font-size: 24px;
+  line-height: 80px;
+}
+
+#hero-info-date {
+  text-align: right;
+}
+
+#hero-info-city {
+  text-align: left;
+  @include omega;
+}
+
+#hero-info-logo {
+  @include span-columns(2 of 12);
+  img {
+    @include size(80px 80px)
+  }
 }
 
 .hero-cta {
