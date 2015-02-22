@@ -42,7 +42,7 @@ layout: default
   </div>
 </section> <!-- /.hero -->
 
-<section class="info">
+<section class="info">  <!-- about -->
   <h2 class="info-title">About</h2>
   <p class="info-text">
     Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
@@ -51,7 +51,7 @@ layout: default
 
 <section class="full feature-photo" id="photo-1"></section>
 
-<section class="info">
+<section class="info"> <!-- sponsors -->
 
     <h2 class="info-title">Sponsors</h2>
     <div class="row">
@@ -81,11 +81,12 @@ layout: default
     </div>
 
     <a href="#" class="button">Become a Sponsor</a>
+
 </section> <!-- /sponsors -->
 
 <section class="full feature-photo" id="photo-2"></section>
 
-<section class="info">
+<section class="info"> <!-- manifesto -->
   <h2 class="info-title info-title-large">Imagine Tomorrow</h2>
   <p class="info-text">
     Normcore tattooed ethical, hashtag tousled Thunder mustache craft beer
@@ -102,9 +103,9 @@ layout: default
 
 <section class="full feature-photo" id="photo-3"></section>
 
-<footer>
+<footer class="section"> <!-- footer -->
 
-  <p class="copy">&copy; 2015 Bitcamp</p>
+  <p class="copy">&copy; {{ site.time | date: '%Y' }} Bitcamp</p>
 
   <ul class="social-links">
     <li class="social-item">
@@ -123,4 +124,5 @@ layout: default
       <a href="#github" class="social-item-link"></a>
     </li>
   </ul>
+
 </footer> <!-- /footer -->

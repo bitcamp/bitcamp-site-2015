@@ -1,4 +1,4 @@
-.container, section {
+.container, section, .section {
   @include outer-container;
   @include clearfix;
 }
