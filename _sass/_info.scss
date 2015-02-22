@@ -1,5 +1,4 @@
 .info {
-  padding: 3*$space 0;
   text-align: center;
 }
 
@@ -13,7 +12,6 @@
 .info-text {
   @include span-columns(10);
   @include shift(1);
-  margin-bottom: 3*$space;
   line-height: 48px;
   color: $brown;
 }

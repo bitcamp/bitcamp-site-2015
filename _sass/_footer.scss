@@ -1,0 +1,29 @@
+footer {
+	margin-bottom: 3*$space;
+	text-align: center;
+
+	p {
+		font-family: $sans;
+		font-size: 18px;
+		color: $medium-blue;
+	}
+}
+
+.copy {
+	margin-bottom: $space;
+}
+
+.social-item {
+	display: inline-block;
+	margin: 0 $space/2;
+	img {
+		width: $space;
+	}
+}
+
+.social-item-link {
+	float: left;
+	img {
+		width: $space;
+	}
+}

@@ -1,0 +1,18 @@
+
+.photo-feature {
+	height: 18*$space;
+	display: block;
+	background-size: cover;
+}
+
+#photo-1 {
+	background: url("/img/photo-colorwar.jpg") center center no-repeat;
+}
+
+#photo-2 {
+	background: url("/img/photo-smores.jpg") center center no-repeat;
+}
+
+#photo-3 {
+	background: url("/img/photo-dave.jpg") center center no-repeat;
+}

@@ -1,6 +1,10 @@
-.container, section {
+.container, section, .section {
   @include outer-container;
   @include clearfix;
+}
+
+section, .section {
+  margin-bottom: 3*$space;
 }
 
 .full {

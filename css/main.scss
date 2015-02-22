@@ -28,6 +28,9 @@ $red: 			#FF3F46;
 
 $space: 40px;
 
+// BREAKPOINTS
+
+$mobile: new-breakpoint(max-width 790px 6);
 
 // IMPORTS
 
@@ -38,3 +41,5 @@ $space: 40px;
 @import "menu";
 @import "slider";
 @import "ui";
+@import "photos";
+@import "footer";
