@@ -13,10 +13,17 @@ footer {
 	margin-bottom: $space;
 }
 
+.social-item {
+	display: inline-block;
+	margin: 0 $space/2;
+	img {
+		width: $space;
+	}
+}
+
 .social-item-link {
 	float: left;
 	img {
-		width: 40px;
-		margin: 0 $space/2;
+		width: $space;
 	}
 }
