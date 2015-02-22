@@ -3,10 +3,11 @@
 }
 
 .menu-list {
-
+  @include span-columns(6);
 }
 
 .menu-logo {
+  @include span-columns(6);
   display: inline-block;
   @include size(100px 20px);
   @include hide-text;
@@ -16,7 +17,8 @@
 .menu-item {
   display: inline-block;
   margin-right: 20px;
-
+  text-align: right;
+  
   &:last-child {
     margin-right: 0;
   }
