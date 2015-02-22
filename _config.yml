@@ -7,3 +7,15 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: "https://bitc.mp"
+sponsors-partner: 
+sponsors-corporate: [{"name": "Oculus VR", "logo": "img/sponsors/oculus.svg", "link": "https://www.oculus.com/"}]
+sponsors-recruiter: [{"name": "TCS", "logo": "img/sponsors/tata.svg", "link": "http://www.tcs.com/Pages/default.aspx"},
+		     {"name": "Leidos", "logo": "img/sponsors/leidos.svg", "link": "https://www.leidos.com/"},
+		     {"name": "LTS", "logo": "img/sponsors/lts.svg", "link": "http://www.ltsnet.net/"},
+		     {"name": "Bloomberg", "logo": "img/sponsors/bloomberg.svg", "link": "http://www.bloomberg.com/"}]
+sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/cipher.svg", "link": "http://www.ciphertechsolutions.com/"},
+		      {"name": "OPIS", "logo": "img/sponsors/opis.svg", "link": "http://www.opisnet.com/"},
+	              {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"},
+		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
+ 		      {"name": "Cisco", "logo": "img/sponsors/cisco.svg", "link": "http://www.cisco.com/"}]
+ 

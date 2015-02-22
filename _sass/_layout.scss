@@ -44,3 +44,8 @@ section, .section {
 .col-center {
   @include shift(4);
 }
+
+.row > div img {
+	height: 100%;
+	width: 100%;
+}

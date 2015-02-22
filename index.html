@@ -61,30 +61,45 @@ layout: default
 <section class="info"> <!-- sponsors -->
 
     <h2 class="info-title">Sponsors</h2>
+
+    {% for sponsor in site.sponsors-partner %}
     <div class="row">
-      <div class="col-large col-center"></div>
+      <div class="col-large col-center">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+    
+    <div class="row">
+      {% for sponsor in site.sponsors-corporate %}
+      <div class="col-large">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      </div>
+      {% endfor %}
     </div>
 
     <div class="row">
-      <div class="col-large"></div>
-      <div class="col-large"></div>
-      <div class="col-large"></div>
+      {% for sponsor in site.sponsors-recruiter %}
+      <div class="col-med">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      </div>
+      {% endfor %}
     </div>
 
     <div class="row">
-      <div class="col-med"></div>
-      <div class="col-med"></div>
-      <div class="col-med"></div>
-      <div class="col-med"></div>
-    </div>
-
-    <div class="row">
-      <div class="col-small"></div>
-      <div class="col-small"></div>
-      <div class="col-small"></div>
-      <div class="col-small"></div>
-      <div class="col-small"></div>
-      <div class="col-small"></div>
+      {% for sponsor in site.sponsors-evangelist %}
+      <div class="col-small">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      </div>
+      {% endfor %}
     </div>
 
     <a href="#" class="button">Become a Sponsor</a>
