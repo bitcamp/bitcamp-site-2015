@@ -1,6 +1,9 @@
 .menu {
   @include clearfix;
   margin-bottom: 3*$space;
+  @include media($mobile){
+    margin-bottom: $space;
+  }
 }
 
 .menu-list {

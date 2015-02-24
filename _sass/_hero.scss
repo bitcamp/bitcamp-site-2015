@@ -4,6 +4,10 @@
   background-color: $sky-blue;
   text-align: center;
   height: 100%;
+   @include media($mobile){
+    padding-top: $space/4;
+    padding-bottom: $space;
+  }
 }
 
 .hero-text {
@@ -17,6 +21,9 @@
 .hero-info {
   @include span-columns(12);
   margin-bottom: 2*$space;
+   @include media($mobile){
+    margin-bottom: 0;
+  }
 }
 
 .hero-info-text {
@@ -76,6 +83,30 @@
 
   @include media($mobile){
 	clear: both;
+  // transform:translateY(35px);
   }
 
+}
+section.hero{
+  .social-links {
+    margin-top: $space;
+     @include media($mobile){
+      display: none;
+    }
+  }
+
+  .social-item {
+    display: inline-block;
+    margin: 0 $space/2;
+    img {
+      width: $space;
+    }
+  }
+
+  .social-item-link {
+    float: left;
+    img {
+      width: $space;
+    }
+  }
 }
