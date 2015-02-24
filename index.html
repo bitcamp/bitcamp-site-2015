@@ -66,44 +66,47 @@ layout: default
     <h2 class="info-title">Sponsors</h2>
 
     {% for sponsor in site.sponsors-partner %}
-    <div class="row">
-      <div class="col-large col-center">
+    <ul class="row">
+      <li class="col-large">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </div>
-    </div>
+      </li>
+    </ul>
     {% endfor %}
-    
-    <div class="row">
+   
+    <ul class="row"><!--
       {% for sponsor in site.sponsors-corporate %}
-      <div class="col-large">
+      --><li class="col-large">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </div>
+      </li><!--
       {% endfor %}
-    </div>
+	  -->
+    </ul>
 
-    <div class="row">
+    <ul class="row"><!--
       {% for sponsor in site.sponsors-recruiter %}
-      <div class="col-med">
+      --><li class="col-med">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </div>
+      </li><!--
       {% endfor %}
-    </div>
+	  -->
+    </ul>
 
-    <div class="row">
+    <ul class="row"><!--
       {% for sponsor in site.sponsors-evangelist %}
-      <div class="col-small">
+      --><li class="col-small">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </div>
+      </li><!--
       {% endfor %}
-    </div>
+	  -->
+    </ul>
 
 </section> <!-- /sponsors -->
 
@@ -111,15 +114,16 @@ layout: default
 
     <h2 class="info-title">Partners</h2>
 
-    <div class="row">
+    <ul class="row"><!--
       {% for partner in site.partners %}
-      <div class="col-med">
+      --><li class="col-med">
         <a href="{{ partner['link'] }}">
           <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
         </a>
-      </div>
+      </li><!--
       {% endfor %}
-    </div>
+	  -->
+    </ul>
 
     <a href="#" class="button">Become a Sponsor</a>
 

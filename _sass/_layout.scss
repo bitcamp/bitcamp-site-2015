@@ -20,31 +20,25 @@ section, .section {
 %col {
   height: 80px;
   margin-bottom: $space/2;
+  display: inline-block;
 }
 
 .col-large {
   @extend %col;
-  @include span-columns(4);
-  @include omega(3n);
+  width: 33.33333333%;
 }
 
 .col-med {
   @extend %col;
-  @include span-columns(3);
-  @include omega(4n);
+  width: 25%;
 }
 
 .col-small {
   @extend %col;
-  @include span-columns(2);
-  @include omega(6n);
+  width: 16.66666666%;
 }
 
-.col-center {
-  @include shift(4);
-}
-
-.row > div img {
-	height: 100%;
-	width: 100%;
+.row > li img {
+  height: 100%;
+  width: 100%;
 }
