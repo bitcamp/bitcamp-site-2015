@@ -105,9 +105,25 @@ layout: default
       {% endfor %}
     </div>
 
+</section> <!-- /sponsors -->
+
+<section class="info"> <!-- partners-->
+
+    <h2 class="info-title">Partners</h2>
+
+    <div class="row">
+      {% for partner in site.partners %}
+      <div class="col-small">
+        <a href="{{ partner['link'] }}">
+          <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
     <a href="#" class="button">Become a Sponsor</a>
 
-</section> <!-- /sponsors -->
+</section> <!-- /partners -->
 
 <section class="full photo-feature" id="photo-2"></section>
 
