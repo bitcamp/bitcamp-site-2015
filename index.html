@@ -75,37 +75,31 @@ layout: default
     </ul>
     {% endfor %}
    
-    <ul class="row"><!--
+    <ul class="row">
       {% for sponsor in site.sponsors-corporate %}
-      --><li class="col-large">
+      <li class="col-large">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </li><!--
       {% endfor %}
-	  -->
     </ul>
 
-    <ul class="row"><!--
+    <ul class="row">
       {% for sponsor in site.sponsors-recruiter %}
-      --><li class="col-med">
+      <li class="col-med">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </li><!--
       {% endfor %}
-	  -->
     </ul>
 
-    <ul class="row"><!--
+    <ul class="row">
       {% for sponsor in site.sponsors-evangelist %}
-      --><li class="col-small">
+      <li class="col-small">
         <a href="{{ sponsor['link'] }}">
           <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
         </a>
-      </li><!--
       {% endfor %}
-	  -->
     </ul>
 
 </section> <!-- /sponsors -->
@@ -114,15 +108,13 @@ layout: default
 
     <h2 class="info-title">Partners</h2>
 
-    <ul class="row"><!--
+    <ul class="row">
       {% for partner in site.partners %}
-      --><li class="col-med">
+      <li class="col-med">
         <a href="{{ partner['link'] }}">
           <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
         </a>
-      </li><!--
       {% endfor %}
-	  -->
     </ul>
 
     <a href="#" class="button">Become a Sponsor</a>
