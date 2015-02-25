@@ -13,6 +13,10 @@ section, .section {
 
 .row {
   @include clearfix;
+  @include media($mobile) {
+    max-width: 50%;
+    margin: auto;
+  }
 }
 
 .row-center {}
@@ -26,16 +30,25 @@ section, .section {
 .col-large {
   @extend %col;
   width: 33.33333333%;
+  @include media($mobile) {
+    width: 100%;
+  }
 }
 
 .col-med {
   @extend %col;
   width: 25%;
+  @include media($mobile) {
+    width: 100%;
+  }
 }
 
 .col-small {
   @extend %col;
   width: 16.66666666%;
+  @include media($mobile) {
+    width: 50%;
+  }
 }
 
 .row > li img {
