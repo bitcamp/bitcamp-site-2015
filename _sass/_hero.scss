@@ -54,7 +54,11 @@
     }
   }
   @include media($mobile){
-	font-size: 18px;
+    @include media($small-mobile){
+      font-size: 12px;
+      line-height: 72px;
+    }
+	  font-size: 18px;
   	line-height: 80px;
   	color: $medium-blue;
   	&:after{
