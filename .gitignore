@@ -4,3 +4,5 @@ _site
 *.yml~
 *.swo
 *.swn
+*.html~
+*.scss~
