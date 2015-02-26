@@ -31,6 +31,7 @@ $space: 40px;
 // BREAKPOINTS
 
 $mobile: new-breakpoint(max-width 790px 6);
+$small-mobile: new-breakpoint(max-width 438px 6);
 
 // MIXINS
 
