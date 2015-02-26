@@ -32,6 +32,13 @@ $space: 40px;
 
 $mobile: new-breakpoint(max-width 790px 6);
 
+// MIXINS
+
+@mixin background-image($img-url) {
+	background: url($img-url) center center no-repeat;
+	background-size: cover;
+}
+ 
 // IMPORTS
 
 @import "typography";

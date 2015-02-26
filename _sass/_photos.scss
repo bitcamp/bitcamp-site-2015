@@ -1,18 +1,19 @@
-
 .photo-feature {
 	height: 18*$space;
 	display: block;
-	background-size: cover;
+	@include media($mobile) {
+		height: 6 * $space;
+	}
 }
 
 #photo-1 {
-	background: url("/img/photo-colorwar.jpg") center center no-repeat;
+	@include background-image("/img/photo-colorwar.jpg");
 }
 
 #photo-2 {
-	background: url("/img/photo-smores.jpg") center center no-repeat;
+	@include background-image("/img/photo-smores.jpg");
 }
 
 #photo-3 {
-	background: url("/img/photo-dave.jpg") center center no-repeat;
+	@include background-image("/img/photo-dave.jpg");
 }
