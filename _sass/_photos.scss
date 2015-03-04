@@ -1,0 +1,20 @@
+.photo-feature {
+	height: 18*$space;
+	display: block;
+	@include media($mobile) {
+		height: 6 * $space;
+	}
+}
+
+#photo-1 {
+	@include background-image("/img/photo-colorwar.jpg");
+}
+
+#photo-2 {
+	@include background-image("/img/photo-smores.jpg");
+}
+
+
+//#photo-3 {
+//	@include background-image("/img/photo-dave.jpg");
+//}

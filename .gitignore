@@ -1,0 +1,8 @@
+_site
+.sass-cache
+*.swp
+*.yml~
+*.swo
+*.swn
+*.html~
+*.scss~

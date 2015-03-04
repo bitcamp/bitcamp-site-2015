@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<section class="hero full">
+  <div class="container">
+
+    <nav class="menu">
+      <div class="menu-logo">
+        <img src="/img/bitcamp-logo-text.svg">
+      </div>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#about" class="menu-item-link">About</a></li>
+        <li class="menu-item"><a href="#sponsors" class="menu-item-link">Sponsors</a></li>
+        <!--<li class="menu-item"><a href="#manifesto" class="menu-item-link">Manifesto</a></li>-->
+        <li class="menu-item"><a href="mailto:hello@bitca.mp" class="menu-item-link">Contact</a></li>
+      </ul>
+    </nav> <!-- /.menu -->
+
+    <nav class="menu-mobile">
+      <div class="menu-hamburger">
+        <img src="/img/hamburger.svg">
+      </div>
+      <ul class="mobile-navigation" id="mobile-navigation">
+        <a href="#about" class="menu-item-link-mobile"><li class="menu-item-mobile">About</li></a>
+        <a href="#sponsors" class="menu-item-link-mobile"><li class="menu-item-mobile">Sponsors</li></a>
+       <!-- <a href="#manifesto" class="menu-item-link-mobile"><li class="menu-item-mobile">Manifesto</li></a>-->
+        <a href="mailto:hello@bitca.mp" class="menu-item-link-mobile"><li class="menu-item-mobile">Contact</li></a>
+      </ul>
+    </nav> <!-- /.menu-mobile -->
+
+    <div class="hero-info">
+      <div class="hero-info-text" id="hero-info-date">April 10-12, 2015</div>
+      <div id="hero-info-badge">
+        <img src="/img/bitcamp-logo-badge.svg">
+      </div>
+      <div id="hero-info-logo">
+        <img src="/img/bitcamp-logo-icon.svg">
+      </div>
+      <div class="hero-info-text" id="hero-info-city">College Park, MD</div>
+    </div>
+
+    <h1 class="hero-text">Imagine<br>Tomorrow</h1>
+    <a href="#" class="button hero-cta">Sign up Today</a>
+
+    <ul class="social-links">
+      <li class="social-item">
+        <a href="https://www.facebook.com/bitcmp" class="social-item-link" target="_blank">
+          <img src="/img/social/facebook.svg">
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://twitter.com/bitcmp" class="social-item-link" target="_blank">
+          <img src="/img/social/twitter.svg">
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://instagram.com/bitcamp" class="social-item-link" target="_blank">
+          <img src="/img/social/instagram.svg">
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section> <!-- /.hero -->
+
+<section class="info" id="about">  <!-- about -->
+  <h2 class="info-title">About</h2>
+  <p class="info-text">
+    Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
+  </p>
+</section> <!-- /about -->
+
+<section class="full photo-feature" id="photo-1"></section>
+
+<section class="info" id="sponsors"> <!-- sponsors -->
+
+    <h2 class="info-title">Sponsors</h2>
+
+    {% for sponsor in site.sponsors-partner %}
+    <ul class="row">
+      <li class="col-large">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      </li>
+    </ul>
+    {% endfor %}
+   
+    <ul class="row">
+      {% for sponsor in site.sponsors-corporate %}
+      <li class="col-large">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      {% endfor %}
+    </ul>
+
+    <ul class="row">
+      {% for sponsor in site.sponsors-recruiter %}
+      <li class="col-med">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      {% endfor %}
+    </ul>
+
+    <ul class="row">
+      {% for sponsor in site.sponsors-evangelist %}
+      <li class="col-small">
+        <a href="{{ sponsor['link'] }}">
+          <img src="{{ sponsor['logo'] }}" alt="{{ sponsor['name'] }}">
+        </a>
+      {% endfor %}
+    </ul>
+
+</section> <!-- /sponsors -->
+
+<section class="info"> <!-- partners-->
+
+    <h2 class="info-title">Partners</h2>
+
+    <ul class="row">
+      {% for partner in site.partners %}
+      <li class="col-med">
+        <a href="{{ partner['link'] }}">
+          <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
+        </a>
+      {% endfor %}
+    </ul>
+
+    <a href="#" class="button">Become a Sponsor</a>
+
+</section> <!-- /partners -->
+
+<section class="full photo-feature" id="photo-2"></section>
+
+<!-- <section class="info" id="manifesto"> 
+  <h2 class="info-title info-title-large">Imagine Tomorrow</h2>
+  <p class="info-text">
+    Normcore tattooed ethical, hashtag tousled Thunder mustache craft beer
+    fingerstache seitan taxidermy Godard YOLO street art bitter, sartorial asymmetrical.
+  </p>
+
+  <div class="row">
+    <div class="col-large"></div>
+    <div class="col-large"></div>
+    <div class="col-large"></div>
+  </div>
+
+</section>
+
+<section class="full photo-feature" id="photo-3"></section>
+-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/menu.js"></script>

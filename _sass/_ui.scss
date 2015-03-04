@@ -1,0 +1,32 @@
+.button {
+  display: block;
+
+  @include size(300px 80px);
+  margin: $space auto 0;
+  padding-top: 30px;
+
+  background: url("/img/button.svg") center center no-repeat;
+
+  font-size: 24px;
+  font-family: $sans;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.social-links {
+
+}
+
+.social-item {
+
+}
+
+.social-item-link {
+
+}
+
+.copy {
+
+}

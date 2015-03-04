@@ -1,0 +1,53 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+@import "reset";
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+
+// COLORS
+
+$white:			#FFF;
+$black:			#000;
+
+$sky-blue: 		#CBF2FF;
+$medium-blue:	#528CA5;
+$dark-blue:		#1a2e33;
+
+$light-brown:	#E5D8CE;
+$brown:			#7F6C5F;
+
+$orange:		#FF7040;
+$red: 			#FF3F46;
+
+
+// SPACING
+
+$space: 40px;
+
+// BREAKPOINTS
+
+$mobile: new-breakpoint(max-width 790px 6);
+$small-mobile: new-breakpoint(max-width 438px 6);
+
+// MIXINS
+
+@mixin background-image($img-url) {
+	background: url($img-url) center center no-repeat;
+	background-size: cover;
+}
+ 
+// IMPORTS
+
+@import "typography";
+@import "layout";
+@import "hero";
+@import "info";
+@import "menu";
+@import "slider";
+@import "ui";
+@import "photos";
+@import "footer";

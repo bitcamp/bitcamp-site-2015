@@ -1,0 +1,24 @@
+# Site settings
+title: Bitcamp 2015
+email: hello@bitca.mp
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://bitc.mp"
+sponsors-partner: 
+sponsors-corporate: [{"name": "Oculus VR", "logo": "img/sponsors/oculus.svg", "link": "https://www.oculus.com/"}]
+sponsors-recruiter: [{"name": "TCS", "logo": "img/sponsors/tata.svg", "link": "http://www.tcs.com/Pages/default.aspx"},
+		     {"name": "Leidos", "logo": "img/sponsors/leidos.svg", "link": "https://www.leidos.com/"},
+		     {"name": "LTS", "logo": "img/sponsors/lts.svg", "link": "http://www.ltsnet.net/"},
+		     {"name": "Bloomberg", "logo": "img/sponsors/bloomberg.svg", "link": "http://www.bloomberg.com/"}]
+sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/cipher.svg", "link": "http://www.ciphertechsolutions.com/"},
+		      {"name": "OPIS", "logo": "img/sponsors/opis.svg", "link": "http://www.opisnet.com/"},
+	              {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"},
+		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
+ 		      {"name": "Cisco", "logo": "img/sponsors/cisco.svg", "link": "http://www.cisco.com/"}]
+partners: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
+    	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin-hackers.svg", "link": "http://www.tcs.com/Pages/default.aspx"}, 
+	{"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mhl.io/"}, 
+	{"name": "Neelbauer Law", "logo": "img/partners/neelbauer.svg", "link": "http://www.neelbauerlaw.com/"}]

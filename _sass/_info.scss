@@ -1,0 +1,17 @@
+.info {
+  text-align: center;
+}
+
+.info-title {
+  margin-bottom: 2*$space;
+  font-size: 18px;
+  color: $dark-blue;
+  text-transform: uppercase;
+}
+
+.info-text {
+  @include span-columns(10);
+  @include shift(1);
+  line-height: 48px;
+  color: $brown;
+}
