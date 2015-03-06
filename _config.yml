@@ -24,6 +24,6 @@ sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/ci
 		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
 			  {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"}]
 partners: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
-    	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin-hackers.svg", "link": "http://www.tcs.com/Pages/default.aspx"}, 
+    	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin-hackers.svg", "link": "http://terrapinhackers.com/"}, 
 	{"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mhl.io/"}, 
 	{"name": "Neelbauer Law", "logo": "img/partners/neelbauer.svg", "link": "http://www.neelbauerlaw.com/"}]
