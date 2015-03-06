@@ -10,20 +10,20 @@ url: "https://bitc.mp"
 sponsors-partner: 
 sponsors-corporate: [{"name": "Oculus VR", "logo": "img/sponsors/oculus.svg", "link": "https://www.oculus.com/"}]
 sponsors-recruiter: [{"name": "TCS", "logo": "img/sponsors/tata.svg", "link": "http://www.tcs.com/Pages/default.aspx"},
-		     {"name": "Leidos", "logo": "img/sponsors/leidos.svg", "link": "https://www.leidos.com/"},
+ 		      {"name": "The Washington Post", "logo": "img/sponsors/The_Washington_Post.svg", "link": "http://m.washingtonpost.com/"},
 		     {"name": "LTS", "logo": "img/sponsors/lts.svg", "link": "http://www.ltsnet.net/"},
 		     {"name": "Bloomberg", "logo": "img/sponsors/bloomberg.svg", "link": "http://www.bloomberg.com/"},
+		     {"name": "Leidos", "logo": "img/sponsors/leidos.svg", "link": "https://www.leidos.com/"},
 		     {"name": "Capital One", "logo": "img/sponsors/Capital_One.svg", "link": "https://www.capitalone.com/"}]
 sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/cipher.svg", "link": "http://www.ciphertechsolutions.com/"},
- 		      {"name": "The Washington Post", "logo": "img/sponsors/The_Washington_Post.svg", "link": "http://m.washingtonpost.com/"},
-			  {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"},
  		      {"name": "Easy Dynamics", "logo": "img/sponsors/easydynamics.svg", "link": "http://www.easydynamics.com/"},
  		      {"name": "Cisco", "logo": "img/sponsors/cisco.svg", "link": "http://www.cisco.com/"},
  		      {"name": "Strap", "logo": "img/sponsors/strap.png", "link": "https://www.straphq.com/"},
  		      {"name": "Facebook", "logo": "img/sponsors/Facebook.svg", "link": "https://www.facebook.com/"},
 		      {"name": "OPIS", "logo": "img/sponsors/opis.svg", "link": "http://www.opisnet.com/"},
  		      {"name": "Thalmic Labs", "logo": "img/sponsors/thalmic.svg", "link": "https://www.thalmic.com/en/myo/"},
-		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"}]
+		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
+			  {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"}]
 partners: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
     	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin-hackers.svg", "link": "http://www.tcs.com/Pages/default.aspx"}, 
 	{"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mhl.io/"}, 

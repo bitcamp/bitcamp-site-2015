@@ -26,6 +26,7 @@ section, .section {
   margin-bottom: $space/2;
   padding: .1em;
   display: inline-block;
+  //background: #369;
 }
 
 .col-large {
@@ -38,8 +39,8 @@ section, .section {
 
 .col-med {
   @extend %col;
-  //width: 25%;
-  width: 20%;
+  width: 25%;
+  //width: 20%;
   @include media($mobile) {
     width: 100%;
   }
