@@ -21,6 +21,8 @@ sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/ci
  		      {"name": "Cisco", "logo": "img/sponsors/cisco.svg", "link": "http://www.cisco.com/"},
  		      {"name": "Strap", "logo": "img/sponsors/strap.png", "link": "https://www.straphq.com/"},
  		      {"name": "Facebook", "logo": "img/sponsors/Facebook.svg", "link": "https://www.facebook.com/"},
+ 		      {"name": "The Washington Post", "logo": "img/sponsors/The_Washington_Post.svg", "link": "http://m.washingtonpost.com/"},
+ 		      {"name": "Thalmic Labs", "logo": "img/sponsors/thalmic.svg", "link": "https://www.thalmic.com/en/myo/"},
  		      {"name": "Easy Dynamics", "logo": "img/sponsors/easydynamics.svg", "link": "http://www.easydynamics.com/"}]
 partners: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
     	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin-hackers.svg", "link": "http://www.tcs.com/Pages/default.aspx"}, 
