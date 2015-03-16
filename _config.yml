@@ -26,7 +26,10 @@ sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/ci
 		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
 		      {"name": "Pebble", "logo": "img/sponsors/Pebble.svg", "link": "http://www.pebble.com/"},
 			  {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"}]
-partners: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
-    	{"name": "Terrapins Hackers", "logo": "img/partners/terrapin_hackers.svg", "link": "http://terrapinhackers.com/"}, 
-	{"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mlh.io/"}, 
-	{"name": "Neelbauer Law", "logo": "img/partners/neelbauer.svg", "link": "http://www.neelbauerlaw.com/"}]
+partners-1: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
+			 {"name": "Terrapins Hackers", "logo": "img/partners/terrapin_hackers.svg", "link": "http://terrapinhackers.com/"}, 
+		     {"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mlh.io/"}, 
+			 {"name": "Neelbauer Law", "logo": "img/partners/neelbauer.svg", "link": "http://www.neelbauerlaw.com/"}]
+partners-2: [{"name": "College of Computer, Mathematical, & Natural Sciences", "logo": "img/partners/cmns.svg", "link": "https://cmns.umd.edu/"},
+			 {"name": "University of Maryland Department of Computer Science", "logo": "img/partners/cs.svg", "link": "http://www.cs.umd.edu/"}, 
+			 {"name": "University of Maryland Institute for Advanced Computer Studies", "logo": "img/partners/umiacs.svg", "link": "http://www.umiacs.umd.edu/"}]

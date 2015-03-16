@@ -121,13 +121,23 @@ layout: default
     <h2 class="info-title">Partners</h2>
 
     <ul class="row">
-      {% for partner in site.partners %}
-      <li class="col-med">
+      {% for partner in site.partners-1 %}
+      <li class="col-med-partner">
         <a href="{{ partner['link'] }}">
           <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
         </a>
       {% endfor %}
     </ul>
+
+	<ul class="row">
+      {% for partner in site.partners-2 %}
+      <li class="col-med-partner">
+        <a href="{{ partner['link'] }}">
+          <img src="{{ partner['logo'] }}" alt="{{ partner['name'] }}">
+        </a>
+      {% endfor %}
+    </ul>
+
 
     <a href="sponsorship/bitcamp-sponsor-2015_Final.pdf" class="button">Become a Sponsor</a>
 
