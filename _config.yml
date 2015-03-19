@@ -25,6 +25,7 @@ sponsors-evangelist: [{"name": "Cipher Tech Solutions", "logo": "img/sponsors/ci
  		      {"name": "Thalmic Labs", "logo": "img/sponsors/thalmic.svg", "link": "https://www.thalmic.com/en/myo/"},
 		      {"name": "ATT", "logo": "img/sponsors/att.svg", "link": "http://www.att.com/"},
 		      {"name": "Pebble", "logo": "img/sponsors/Pebble.svg", "link": "http://www.pebble.com/"},
+		      {"name": "Dealeron", "logo": "img/sponsors/dealeron_dark.svg", "link": "http://www.dealeron.com/"},
 			  {"name": "Goldman Sachs", "logo": "img/sponsors/goldman.svg", "link": "http://www.goldmansachs.com/"}]
 partners-1: [{"name": "Startup Shell", "logo": "img/partners/startup-shell.svg", "link": "https://www.startupshell.org/"},
 			 {"name": "Terrapins Hackers", "logo": "img/partners/terrapin_hackers.svg", "link": "http://terrapinhackers.com/"}, 
