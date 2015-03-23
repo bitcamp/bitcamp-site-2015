@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px"
+	 height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<symbol  id="Tools" viewBox="-31 -31 61.999 62">
+	<path d="M20.78-10.557h-0.004c-0.191,0-0.378-0.02-0.565-0.029L0.892,8.732c-1.353,1.353-3.318,1.721-5.02,1.139l3.016,8.836
+		c0.495,1.455-0.007,3.602-1.093,4.689l-6.315,6.316c-1.09,1.09-3.236,1.592-4.689,1.096l-3.787-1.293
+		c-0.62-0.211-1.012-0.564-1.115-1.002c-0.104-0.434,0.092-0.926,0.558-1.389l4.069-4.055c1.431-1.439,1.428-3.781-0.008-5.217
+		l-4.359-4.359c-0.693-0.691-1.618-1.074-2.601-1.074c-0.994,0-1.922,0.385-2.62,1.082l-4.051,4.053
+		c-0.466,0.463-0.957,0.662-1.391,0.559c-0.433-0.104-0.785-0.498-0.998-1.115l-1.295-3.787c-0.496-1.461,0.007-3.607,1.094-4.691
+		l6.319-6.314c1.086-1.088,3.229-1.588,4.678-1.096l8.848,3.02c-0.583-1.703-0.216-3.67,1.136-5.021l19.319-19.32
+		c-0.012-0.188-0.029-0.375-0.029-0.566C10.557-26.422,15.133-31,20.776-31c5.643,0,10.223,4.578,10.223,10.221
+		C30.999-15.133,26.423-10.557,20.78-10.557z M20.78-26.137c-2.958,0-5.357,2.404-5.357,5.357c0,1.432,0.554,2.779,1.57,3.787
+		c1.01,1.014,2.352,1.57,3.787,1.57c2.95,0,5.354-2.402,5.354-5.357C26.133-23.732,23.729-26.137,20.78-26.137z"/>
+</symbol>
+<g id="Layer_1">
+	<rect x="255" y="259" fill="none" width="470" height="105"/>
+	
+		<text transform="matrix(1 0 0 1 257.5 363.0977)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'UbuntuMonoDerivativePowerline-Bold'" font-size="150">H</text>
+	
+		<text transform="matrix(0.7 0 0 0.7 332.5 363.0977)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'UbuntuMonoDerivativePowerline-Bold'" font-size="150">ack</text>
+	
+		<text transform="matrix(1 0 0 1 490 363.0977)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'UbuntuMonoDerivativePowerline-Bold'" font-size="150">W</text>
+	
+		<text transform="matrix(0.7 0 0 0.7 565 363.0977)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'UbuntuMonoDerivativePowerline-Bold'" font-size="150">are</text>
+</g>
+<g id="Layer_2">
+	<path fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M212.992,309.322
+		c3.6,4.29,4.172,9.737,1.278,12.165l-79.913,67.055c-2.894,2.428-8.159,0.919-11.759-3.371l-64.098-76.389
+		c-3.6-4.29-4.172-9.737-1.278-12.165l79.913-67.055c2.894-2.428,8.159-0.919,11.759,3.371L212.992,309.322z"/>
+	
+		<use xlink:href="#Tools"  width="61.999" height="62" x="-31" y="-31" transform="matrix(1.307 0.1143 0.1115 -1.2749 133.8802 305.4685)" overflow="visible"/>
+	
+		<rect x="186.576" y="227.303" transform="matrix(-0.6428 -0.766 0.766 -0.6428 130.1065 550.1619)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="34.887"/>
+	
+		<rect x="206.502" y="251.05" transform="matrix(-0.6428 -0.766 0.766 -0.6428 144.6498 604.4384)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="34.887"/>
+	
+		<rect x="52.53" y="331.933" transform="matrix(-0.6428 -0.766 0.766 -0.6428 -170.2543 619.3624)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="34.887"/>
+	
+		<rect x="72.456" y="355.681" transform="matrix(-0.6428 -0.766 0.766 -0.6428 -155.711 673.6389)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="34.887"/>
+	
+		<rect x="208.876" y="336.286" transform="matrix(0.766 -0.6428 0.6428 0.766 -178.6493 221.9861)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+	
+		<rect x="182.16" y="358.703" transform="matrix(0.766 -0.6428 0.6428 0.766 -199.3092 210.0581)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+	
+		<rect x="155.445" y="381.121" transform="matrix(0.766 -0.6428 0.6428 0.766 -219.969 198.1302)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+	
+		<rect x="96.788" y="199.578" transform="matrix(0.766 -0.6428 0.6428 0.766 -116.9986 117.9536)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+	
+		<rect x="70.072" y="221.995" transform="matrix(0.766 -0.6428 0.6428 0.766 -137.6584 106.0257)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+	
+		<rect x="43.357" y="244.412" transform="matrix(0.766 -0.6428 0.6428 0.766 -158.3182 94.0977)" fill="#4DB748" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="13.5" height="40.249"/>
+</g>
+</svg>
