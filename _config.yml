@@ -40,7 +40,7 @@ sponsors-evangelist: [
 			 		    {"name": "Twitter", "logo": "img/sponsors/Twitter.svg", "link": "http://twitter.com/"},
 			 		    {"name": "Twilio", "logo": "img/sponsors/twilio.svg", "link": "http://twilio.com/"},
 			 		    {"name": "Thalmic Labs", "logo": "img/sponsors/thalmic.svg", "link": "https://www.thalmic.com/en/myo/"},
-			 		    {"name": "Wolfram Research", "logo": "img/sponsors/Wolfram.svg", "link": "http://www.wolfram.com/"}
+			 		    {"name": "Wolfram Research", "logo": "img/sponsors/wolfram.svg", "link": "http://www.wolfram.com/"}
 					]
 partners-1: 		[
 					    {"name": "HackerRank", "logo": "img/partners/Hackerrank.svg", "link": "https://www.hackerrank.com/"},
