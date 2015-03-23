@@ -55,5 +55,5 @@ partners-2: 		[
 						{"name": "College of Computer, Mathematical, & Natural Sciences", "logo": "img/partners/cmns.svg", "link": "https://cmns.umd.edu/"},
 						{"name": "University of Maryland Department of Computer Science", "logo": "img/partners/cs.svg", "link": "http://www.cs.umd.edu/"},
 						{"name": "University of Maryland Institute for Advanced Computer Studies", "logo": "img/partners/umiacs.svg", "link": "http://www.umiacs.umd.edu/"},
-						{"name": "University of Maryland Division of Information Technology", "logo": "img/partners/DivLogo1.svg", "link": "http://www.it.umd.edu/"}
+						{"name": "University of Maryland Division of Information Technology", "logo": "img/sponsors/DivLogo1.svg", "link": "http://www.it.umd.edu/"}
 					]
