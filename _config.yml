@@ -45,7 +45,7 @@ sponsors-evangelist: [
 					]
 partners-1: 		[
 					    {"name": "HackerRank", "logo": "img/partners/Hackerrank.svg", "link": "https://www.hackerrank.com/"},
-					    {"name": "Hackware", "logo": "img/partners/hackware_logo.svg", "link": "https://www.hackware.io/"},
+					    {"name": "Hackware", "logo": "https://hackware.io/images/hackware_logo.svg", "link": "https://www.hackware.io/"},
 					    {"name": "Major League Hacking", "logo": "img/partners/mlh.svg", "link": "https://www.mlh.io/"},
 					    {"name": "Midatlantic Crossroads", "logo": "img/partners/MidAtlanticCrossroads.svg", "link": "http://www.maxgigapop.net/"},
 						{"name": "Neelbauer Law", "logo": "img/partners/neelbauer.svg", "link": "http://www.neelbauerlaw.com/"},
