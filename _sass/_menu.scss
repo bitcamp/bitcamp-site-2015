@@ -1,8 +1,9 @@
-/* Desktop Menu */
+// DESKTOP MENU
+
 .menu {
   @include clearfix;
   margin-bottom: 3*$space;
-  @include media($mobile){
+  @include media($mobile) {
     margin-bottom: $space;
     display: none;
   }
@@ -38,7 +39,8 @@
   color: $medium-blue;
 }
 
-/* Mobile Menu */
+// MOBILE MENU
+
 .menu-mobile {
   display: none;
   margin-bottom: 1*$space;

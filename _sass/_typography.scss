@@ -13,27 +13,33 @@ $sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 // BODY
 
 body {
-  font-family: $slab;
-  font-weight: 400;
-  @include media($mobile){
-	font-size: 32px;
-  }
-
+	font-family: $slab;
+	font-weight: 400;
+	font-size: 16px;
+	@include media($tablet) {
+		font-size: 18px;
+	}
+	@include media($desktop) {
+		font-size: 24px;
+	}
+	@include media($large) {
+		font-size: 28px;
+	}
 }
 
 
 // HEADINGS
 
 h1 {
-	line-height: 144px;
+	line-height: 1.25;
 	font-family: $sans;
-	font-size: 120px;
+	font-size: 4em;
 	color: $dark-blue;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 1em;
 	font-family: $sans;
 	color: $dark-blue;
 	text-transform: uppercase;

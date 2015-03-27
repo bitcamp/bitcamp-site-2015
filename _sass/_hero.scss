@@ -4,35 +4,37 @@
   background-color: $sky-blue;
   text-align: center;
   height: 100%;
-  @include media($mobile){
-    padding-top: $space/4;
-    padding-bottom: $space;
+  padding: $space/4 0 $space;
+  @include media($tablet) {
+    padding-top: 2*$space;
+    padding-bottom: 3*$space;
   }
 }
 
 .hero-text {
   margin-bottom: $space;
   clear: both;
-  @include media($mobile){
-  	display: none;
+  display: none;
+  @include media($tablet) {
+    display: block;
   }
 }
 
 .hero-info {
-  @include span-columns(12);
-  margin-bottom: 2*$space;
-  @include media($mobile){
-    margin-bottom: 0;
+  @include clearfix;
+  @include media($tablet) {
+    margin-bottom: $space;
   }
 }
 
 .hero-info-text {
-  @include span-columns(5 of 12);
-  font-size: 24px;
-  line-height: 80px;
-  color: $medium-blue;
-  @include media($mobile){
    display: none;
+  @include media($tablet) {
+    @include span-columns(5 of 12);
+    font-size: 24px;
+    line-height: 80px;
+    color: $medium-blue;
+    display: block;
  }
 }
 
@@ -49,15 +51,15 @@
   @include span-columns(2 of 12);
   img {
     @include size(80px 80px);
-    @include media($mobile){
+    @include media($mobile) {
     	display: none;
     }
   }
-  @include media($mobile){
-    @include media($small-mobile){
-      font-size: 12px;
-      line-height: 72px;
-    }
+  @include media($mobile) {
+    // @include media($small-mobile) {
+    //   font-size: 12px;
+    //   line-height: 72px;
+    // }
     font-size: 18px;
     line-height: 80px;
     color: $medium-blue;
@@ -71,7 +73,7 @@
 }
 #hero-info-badge{
 	display: none;
-	@include media($mobile){
+	@include media($mobile) {
 		@include span-columns(2 of 6);
 		@include shift(2 of 6);
 		img{
@@ -85,7 +87,7 @@
 
 .hero-cta {
 
-  @include media($mobile){
+  @include media($mobile) {
    clear: both;
   // transform:translateY(35px);
 }
@@ -94,7 +96,7 @@
 section.hero{
   .social-links {
     margin-top: $space;
-    @include media($mobile){
+    @include media($mobile) {
       display: none;
     }
   }
