@@ -8,31 +8,6 @@
 @import "neat/neat";
 
 
-// COLORS
-
-$white:			#FFF;
-$black:			#000;
-
-$sky-blue: 		#CBF2FF;
-$medium-blue:	#528CA5;
-$dark-blue:		#1a2e33;
-
-$light-brown:	#E5D8CE;
-$brown:			#7F6C5F;
-
-$orange:		#FF7040;
-$red: 			#FF3F46;
-
-
-// SPACING
-
-$space: 40px;
-
-// BREAKPOINTS
-
-$mobile: new-breakpoint(max-width 790px 6);
-$small-mobile: new-breakpoint(max-width 438px 6);
-
 // MIXINS
 
 @mixin background-image($img-url) {
@@ -43,6 +18,7 @@ $small-mobile: new-breakpoint(max-width 438px 6);
 // IMPORTS
 
 @import "typography";
+@import "colors";
 @import "layout";
 @import "hero";
 @import "info";
@@ -51,3 +27,4 @@ $small-mobile: new-breakpoint(max-width 438px 6);
 @import "ui";
 @import "photos";
 @import "footer";
+@import "breakpoints";

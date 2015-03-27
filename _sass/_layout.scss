@@ -1,3 +1,7 @@
+// SPACING
+
+$space: 40px;
+
 .container, section, .section {
   @include outer-container;
   @include clearfix;

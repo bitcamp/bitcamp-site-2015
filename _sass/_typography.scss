@@ -15,7 +15,10 @@ $sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 body {
   font-family: $slab;
   font-weight: 400;
-  font-size: 32px;
+  @include media($mobile){
+	font-size: 32px;
+  }
+
 }
 
 
