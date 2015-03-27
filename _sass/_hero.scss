@@ -4,37 +4,36 @@
   background-color: $sky-blue;
   text-align: center;
   height: 100%;
-  padding: $space/4 0 $space;
-  @include media($tablet) {
-    padding-top: 2*$space;
-    padding-bottom: 3*$space;
-  }
+    padding: $space/4 0 $space;
+    @include media($tablet) {
+      padding-top: 2*$space;
+      padding-bottom: 3*$space;
+    }
 }
 
 .hero-text {
   margin-bottom: $space;
   clear: both;
-  display: none;
-  @include media($tablet) {
-    display: block;
+  @include media($mobile) {
+  	display: none;
   }
 }
 
 .hero-info {
-  @include clearfix;
-  @include media($tablet) {
-    margin-bottom: $space;
+  @include span-columns(12);
+  margin-bottom: $space;
+  @include media($mobile) {
+    margin-bottom: 0;
   }
 }
 
 .hero-info-text {
+  @include span-columns(5 of 12);
+  font-size: 1em;
+  line-height: 80px;
+  color: $medium-blue;
+  @include media($mobile) {
    display: none;
-  @include media($tablet) {
-    @include span-columns(5 of 12);
-    font-size: 24px;
-    line-height: 80px;
-    color: $medium-blue;
-    display: block;
  }
 }
 
@@ -50,18 +49,14 @@
 #hero-info-logo {
   @include span-columns(2 of 12);
   img {
-    @include size(80px 80px);
+    @include size(3em 3em);
     @include media($mobile) {
     	display: none;
     }
   }
   @include media($mobile) {
-    // @include media($small-mobile) {
-    //   font-size: 12px;
-    //   line-height: 72px;
-    // }
     font-size: 18px;
-    line-height: 80px;
+    line-height: 3em;
     color: $medium-blue;
     &:after{
       content: "April 10-12, 2015 \0020 \0020 \00B7 \0020 \0020 College Park, MD";
