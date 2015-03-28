@@ -73,67 +73,7 @@ layout: default
 
 <section class="full photo-feature" id="photo-1"></section>
 
-<section class="info tight-bottom" id="sponsors"> <!-- sponsors -->
-
-  <h2 class="info-title">Sponsors</h2>
-
-  <ul class="row">
-    {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == "1" %}
-    <li class="col-large">
-      <a href="{{ sponsor.link }}" target="_blank">
-        <img src="img/sponsors/{{ sponsor.logo }}.svg" alt="{{ sponsor.name }}">
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-  <ul class="row">
-    {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == "2" %}
-    <li class="col-med">
-      <a href="{{ sponsor.link }}" target="_blank">
-        <img src="img/sponsors/{{ sponsor.logo }}.svg" alt="{{ sponsor.name }}">
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-  <ul class="row">
-    {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == "3" %}
-    <li class="col-small">
-      <a href="{{ sponsor.link }}" target="_blank">
-        <img src="img/sponsors/{{ sponsor.logo }}.svg" alt="{{ sponsor.name }}">
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-</section> <!-- /sponsors -->
-
-<section class="info tight-top"> <!-- partners-->
-
-  <h2 class="info-title">Partners</h2>
-
-  <ul class="row">
-    {% for partner in site.data.partners %}
-    {% if partner.tier == "1" %}
-    <li class="col-med-partner">
-      <a href="{{ partner.link }}" target="_blank">
-        <img src="img/sponsors/{{ partner.logo }}.svg" alt="{{ sponsor.name }}">
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-  <a href="sponsorship/bitcamp-sponsor-2015_Final.pdf" class="button">Become a Sponsor</a>
-
-</section> <!-- /partners -->
+{% include _sponsors.html %}
 
 <section class="full photo-feature" id="photo-2"></section>
 
