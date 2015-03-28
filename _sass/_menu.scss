@@ -2,7 +2,7 @@
 
 .menu {
   @include clearfix;
-  margin-bottom: 3*$space;
+  margin-bottom: 2*$space;
   @include media($mobile) {
     margin-bottom: $space;
     display: none;
