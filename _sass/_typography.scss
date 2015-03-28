@@ -15,15 +15,15 @@ $sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 body {
 	font-family: $slab;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: $base-font-size;
 	@include media($tablet) {
-		font-size: 20px;
+		font-size: $tablet-font-size;
 	}
 	@include media($desktop) {
-		font-size: 22px;
+		font-size: $desktop-font-size;
 	}
 	@include media($large) {
-		font-size: 24px;
+		font-size: $large-font-size;
 	}
 }
 

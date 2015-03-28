@@ -1,8 +1,14 @@
 .photo-feature {
-	height: 18*$space;
 	display: block;
-	@include media($mobile) {
-		height: 6 * $space;
+	height: 8*$space;
+	@include media($tablet) {
+		height: 12*$space;
+	}
+	@include media($desktop) {
+		height: 16*$space;
+	}
+	@include media($large) {
+		height: 18*$space;
 	}
 }
 
@@ -14,7 +20,6 @@
 	@include background-image("/img/photo-smores.jpg");
 }
 
-
-//#photo-3 {
-//	@include background-image("/img/photo-dave.jpg");
-//}
+#photo-3 {
+	@include background-image("/img/photo-dave.jpg");
+}

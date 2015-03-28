@@ -1,13 +1,15 @@
 .button {
-  display: block;
+  @include clearfix;
 
-  @include size(300px 80px);
+  display: block;
+  clear: both;
+  @include size(13.125em 3.5em);
   margin: $space auto 0;
-  padding-top: 30px;
+  padding-top: 1.3125em;
 
   background: url("/img/button.svg") center center no-repeat;
 
-  font-size: 24px;
+  font-size: 1em;
   font-family: $sans;
   font-weight: bold;
   text-align: center;

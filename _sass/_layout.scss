@@ -2,17 +2,26 @@
   @include outer-container;
   @include clearfix;
   padding: 0 20px;
-  @include media($tablet); {
+  @include media($tablet) {
     padding: 0 80px;
   }
 }
 
 section, .section {
-  margin-bottom: 3*$space;
+  padding-top: 3*$space;
+  padding-bottom: 3*$space;
 }
 
 .full {
   max-width: 100%;
+}
+
+.tight-top {
+  padding-top: 0;
+}
+
+.tight-bottom {
+  padding-bottom: 2*$space;
 }
 
 .row {

@@ -26,3 +26,9 @@ $tablet-size:	720px;
 $desktop-size:	em(960);
 $large-size:	em(1224);
 
+// TYPOGRAPHY
+
+$base-font-size:	18px;
+$tablet-font-size:	21px;
+$desktop-font-size:	$tablet-font-size;
+$large-font-size:	24px;
