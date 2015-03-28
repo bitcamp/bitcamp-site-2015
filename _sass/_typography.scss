@@ -15,12 +15,12 @@ $sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 body {
 	font-family: $slab;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 	@include media($tablet) {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	@include media($desktop) {
-		font-size: 21px;
+		font-size: 22px;
 	}
 	@include media($large) {
 		font-size: 24px;
