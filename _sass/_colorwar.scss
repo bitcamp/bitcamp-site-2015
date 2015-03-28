@@ -2,8 +2,76 @@
 
 .colorwar {
 
+	background: $dark-blue;
+	padding-top: $space;
+
+
+	section, .section {
+		padding-top: 1.25*$space;
+		padding-bottom: 1.25*$space;
+	}
+
+	h2 {
+		margin-bottom: $space;
+	}
+
 	.hero {
 		background: $dark-blue;
+
+		img {
+			height: 300px;
+			max-width: 80%;
+		}
+
 	}
+
+	.info {
+		.info-title {
+			color: $yellow-orange;
+		}
+		.info-text {
+			color: $white;
+		}
+	}
+
+	#judges {
+		.judge {
+			@include span-columns(4);
+			.judge-pic {
+				@include size(8em 8em);
+				margin: 0 auto 1em;
+				height: 8em;
+				background-position: -8em 0;
+				&:hover {
+					background-position: 0 0;
+				}
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+				&#ashley {
+					background-image: url("/img/colorwar/ashley.jpg");
+				}
+				&#chris {
+					background-image: url("/img/colorwar/chris.jpg");
+				}
+				&#gira {
+					background-image: url("/img/colorwar/gira.jpg");
+				}
+
+			}
+			p {
+				color: $white;
+				a {
+					color: inherit;
+				}
+				&.job {
+					font-family: $sans;
+
+					margin-top: .75em;
+					font-size: .75em;
+				}
+			}
+		}
+	}
+
 
 }
