@@ -16,9 +16,6 @@
   float: left;
   img {
     height: 24px;
-    // svg {
-    //   fill: $medium-blue;
-    // }
   }
 }
 
@@ -80,4 +77,24 @@
   background: $medium-blue;
 }
 
+// SOCIAL LINKS
+
+.social-links {
+  margin-top: $space;
+}
+
+.social-item {
+  display: inline-block;
+  margin: 0 $space/2;
+  img {
+    @include size($space $space);
+  }
+}
+
+.social-item-link {
+  float: left;
+  img {
+    width: $space;
+  }
+}
 

@@ -1,17 +1,5 @@
 // BREAKPOINTS
 
-
-// $mobile: new-breakpoint(max-width 790px 6);
-// $small-mobile: new-breakpoint(max-width 438px 6);
-
-// $mobile-size:	em(320);
-// $mobile-size:	719px;
-// $tablet-size:	720px;
-// $desktop-size:	em(960);
-// $large-size:	em(1224);
-
-
-
 $mobile: 	new-breakpoint(max-width $mobile-size 	4);
 $tablet: 	new-breakpoint(min-width $tablet-size 	8);
 $desktop: 	new-breakpoint(min-width $desktop-size 	12);

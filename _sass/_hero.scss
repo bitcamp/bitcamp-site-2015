@@ -63,6 +63,7 @@
   }
 
 }
+
 #hero-info-badge{
 	display: none;
 	@include media($mobile) {
@@ -75,33 +76,13 @@
 }
 
 .hero-cta {
-
-  @include media($mobile) {
    clear: both;
-  // transform:translateY(35px);
 }
 
-}
-section.hero{
+.hero{
   .social-links {
-    margin-top: $space;
     @include media($mobile) {
       display: none;
-    }
-  }
-
-  .social-item {
-    display: inline-block;
-    margin: 0 $space/2;
-    img {
-      width: $space;
-    }
-  }
-
-  .social-item-link {
-    float: left;
-    img {
-      width: $space;
     }
   }
 }
