@@ -1,33 +1,1 @@
-name,logo,link,tier
-Oculus,oculus,https://www.oculus.com,1
-A. James Clark School of Engineering,clark,http://www.eng.umd.edu,1
-CMNS,cmns,https://cmns.umd.edu,1
-Bloomberg,bloomberg,http://www.bloomberg.com,2
-Booz Allen Hamilton,booz,http://www.boozallen.com,2
-Capital One Labs,capitalone,https://www.capitalone.com,2
-Deloitte,deloitte,http://deloitte.com,2
-Drakontas Consulting,drakontas,http://drakontasconsulting.com,2
-Leidos,leidos,https://www.leidos.com,2
-LTS,lts,http://www.ltsnet.net,2
-The Washington Post,washpost,http://washingtonpost.com,2
-Accenture,accenture,http://www.accenture.com/us-en/pages/index.aspx,3
-AT&T,att,http://www.att.com,3
-BookHolders,bookholders,https://www.bookholders.com,3
-Cipher Tech Solutions,cipher,http://www.ciphertechsolutions.com,3
-Cisco,cisco,http://www.cisco.com,3
-Easy Dynamics,easydynamics,http://www.easydynamics.com,3
-Dealeron,dealeron,http://www.dealeron.com,3
-Facebook,facebook,https://www.facebook.com,3
-FINRA,finra,http://www.finra.org,3
-Goldman Sachs,goldman,http://www.goldmansachs.com,3
-IBM Bluemix,ibm,http://www.ibm.com/us/en/,3
-Lockheed Martin,lockheed,http://www.lockheedmartin.com,3
-Microsoft,microsoft,http://microsoft.com,3
-OPIS,opis,http://www.opisnet.com,3
-Pebble,pebble,http://www.pebble.com,3
-Strap,strap,http://www.straphq.com,3
-Thalmic Labs,thalmic,https://www.thalmic.com/en/myo,3
-Twilio,twilio,http://twilio.com,3
-Twitter,twitter,http://twitter.com,3
-Wolfram Research,wolfram,http://www.wolfram.com,3
-Crabshell Cases,crabshell,crabshellcases.weebly.com,4
+name,logo,link,tierA. James Clark School of Engineering,clark,http://www.eng.umd.edu,1"College of Computer, Mathematical, & Natural Sciences",cmns,https://cmns.umd.edu,1Oculus,oculus,https://www.oculus.com,1Bloomberg,bloomberg,http://www.bloomberg.com,2Booz Allen Hamilton,booz,http://www.boozallen.com,2Capital One Labs,capitalone,https://www.capitalone.com,2Credible,credible,http://www.credibleinc.com/,2Deloitte,deloitte,http://deloitte.com,2Drakontas Consulting,drakontas,http://drakontasconsulting.com,2IBM Design,ibmdesign,http://www.ibm.com/design/,2Leidos,leidos,https://www.leidos.com,2LTS,lts,http://www.ltsnet.net,2Tata,tata,http://www.tcs.com,2The Washington Post,washpost,http://washingtonpost.com,2Academy of Innovation and Entrepreneurship,aie,http://innovation.umd.edu,3Department of Computer Science,cs,http://www.cs.umd.edu,3Dingman Center for Entrepreneurship,dingman,http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship,3Division of Information Technology,divit,http://www.it.umd.edu,3Institute for Advanced Computer Studies,umiacs,http://www.umiacs.umd.edu,3Major League Hacking,mlh,https://www.mlh.io,3SGA,sga,http://www.umdsga.com/,3Startup Shell,startupshell,http://startupshell.org,3Terrapins Hackers,terrapinhackers,http://terrapinhackers.com,3Accenture,accenture,http://www.accenture.com/us-en/pages/index.aspx,4AT&T,att,http://www.att.com,4BookHolders,bookholders,https://www.bookholders.com,4BraveUX,braveux,http://braveux.com,4Cipher Tech Solutions,cipher,http://www.ciphertechsolutions.com,4Cisco,cisco,http://www.cisco.com,4Dealeron,dealeron,http://www.dealeron.com,4Easy Dynamics,easydynamics,http://www.easydynamics.com,4Facebook,facebook,https://www.facebook.com,4FINRA,finra,http://www.finra.org,4FiscalNote,fiscalnote,http://fiscalnote.com,4Goldman Sachs,goldman,http://www.goldmansachs.com,4IBM Bluemix,bluemix,http://www.ibm.com/us/en/,4Lockheed Martin,lockheed,http://www.lockheedmartin.com,4Microsoft,microsoft,http://microsoft.com,4Mid-Atlantic Crossroads,max,http://www.maxgigapop.net,4Namecheap,namecheap,http://namecheap.com,4OPIS,opis,http://www.opisnet.com,4Pebble,pebble,http://www.pebble.com,4Strap,strap,http://www.straphq.com,4Twitter,twitter,http://twitter.com,4Uber,uber,http://uber.com,4Wolfram Research,wolfram,http://www.wolfram.com,4AppCow,appcow,http://www.app-cow.com/,5ChallengePost,challengepost,http://challengepost.com,5Crabshell,crabshell,http://crabshellcases.weebly.com,5Cyber Skyline,cyberskyline,http://cyberskyline.com/,5Delta,delta,http://projectdelta.io/,5Food Recovery Network,frn,http://www.foodrecoverynetwork.org/,5HackerRank,hackerrank,https://www.hackerrank.com,5Hackware,hackware,https://www.hackware.io,5Javazen,javazen,http://www.drinkjavazen.com/,5Kivvik,kivvik,https://kivvik.com/,5Limidax,limidax,http://www.limidax.com/,5Neelbauer Law LLC,neelbauer,http://www.neelbauerlaw.com,5Readybox,readybox,http://readybox.co/,5Thalmic Labs,thalmic,https://www.thalmic.com/en/myo,5Twilio,twilio,http://twilio.com,5umd.io,umdio,http://umd.io/,5VentureBoard,ventureboard,http://ventureboard.co/,5VentureStorm,venturestorm,http://www.venturestorm.com/,5

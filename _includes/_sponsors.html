@@ -50,18 +50,12 @@
     {% endfor %}
   </ul>
 
-</section> <!-- /sponsors -->
-
-<section class="info tight-top"> <!-- partners-->
-
-  <h2 class="info-title">Partners</h2>
-
   <ul class="row">
-    {% for partner in site.data.partners %}
-    {% if partner.tier == "1" %}
-    <li class="col-med-partner">
-      <a href="{{ partner.link }}" target="_blank">
-        <img src="img/sponsors/{{ partner.logo }}.svg" alt="{{ sponsor.name }}">
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.tier == "5" %}
+    <li class="col-small">
+      <a href="{{ sponsor.link }}" target="_blank">
+        <img src="img/sponsors/{{ sponsor.logo }}.svg" alt="{{ sponsor.name }}">
       </a>
     </li>
     {% endif %}
