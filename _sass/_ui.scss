@@ -14,7 +14,10 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  color: $white;
+  color: $white !important;
+  &:hover {
+    color: rgba(255,255,255,.9) !important;
+  }
 }
 
 .social-links {
