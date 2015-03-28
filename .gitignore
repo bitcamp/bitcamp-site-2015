@@ -7,3 +7,4 @@ _site
 *.html~
 *.scss~
 *.swm
+.DS_Store
