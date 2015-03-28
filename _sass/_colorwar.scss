@@ -3,7 +3,7 @@
 .colorwar {
 
 	background: $dark-blue;
-	padding-top: $space;
+	padding-top: 1.5em;
 
 
 	section, .section {
@@ -19,10 +19,14 @@
 		background: $dark-blue;
 
 		img {
-			height: 300px;
+			height: 6em;
 			max-width: 80%;
 		}
 
+	}
+
+	.button {
+		margin-top: $space;
 	}
 
 	.info {
@@ -31,6 +35,19 @@
 		}
 		.info-text {
 			color: $white;
+		}
+	}
+
+	.howitworks {
+		@include span-columns(6);
+		margin-top: 1em;
+		h2 {
+			color: $white;
+			font-weight: 400;
+			border-bottom: 1px solid $white;
+			padding-bottom: .5em;
+			display: inline-block;
+			margin: 0 auto 1em;
 		}
 	}
 
