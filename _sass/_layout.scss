@@ -1,6 +1,10 @@
 .container, section, .section {
   @include outer-container;
   @include clearfix;
+  padding: 0 20px;
+  @include media($tablet); {
+    padding: 0 80px;
+  }
 }
 
 section, .section {
@@ -26,7 +30,6 @@ section, .section {
   margin-bottom: $space/2;
   padding: .25em;
   display: inline-block;
-  //background: #369;
 }
 
 .col-large {
