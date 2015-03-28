@@ -13,7 +13,7 @@
 }
 
 #photo-1 {
-	@include background-image("/img/photo-colorwar.jpg");
+	@include background-image("/img/photo-dave.jpg");
 }
 
 #photo-2 {
@@ -21,5 +21,5 @@
 }
 
 #photo-3 {
-	@include background-image("/img/photo-dave.jpg");
+	@include background-image("/img/photo-colorwar.jpg");
 }
