@@ -83,9 +83,6 @@
 				margin: 0 auto 1em;
 				height: 8em;
 				background-position: -8em 0;
-				&:hover {
-					background-position: 0 0;
-				}
 				background-size: auto 100%;
 				background-repeat: no-repeat;
 				&#ashley {
@@ -98,6 +95,11 @@
 					background-image: url("/img/colorwar/gira.jpg");
 				}
 
+			}
+			&:hover {
+				.judge-pic {
+					background-position: 0 0;
+				}
 			}
 			p {
 				&.job {
