@@ -15,12 +15,14 @@
 
 	.hero {
 		background: $dark-blue;
-		@include background-image("/img/photo-colorwar.jpg");
+		@include background-image("/img/photo-colorwar-edit.jpg");
 		padding: 4*$space 0;
 		margin-bottom: $space;
 
 		img {
 			max-width: 80%;
+			text-shadow: 10px 10px 5px $dark-blue;
+			z-index: 1000;
 		}
 
 	}
