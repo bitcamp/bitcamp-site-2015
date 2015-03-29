@@ -27,6 +27,11 @@ body {
 	}
 }
 
+// TABLES
+
+th {
+	font-family: $sans;	
+}
 
 // HEADINGS
 
@@ -43,4 +48,10 @@ h2 {
 	font-family: $sans;
 	color: $dark-blue;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: $sans;
+	color: $dark-blue;
 }
