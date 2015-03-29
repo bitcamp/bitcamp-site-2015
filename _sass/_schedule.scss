@@ -22,8 +22,7 @@ th {
 td {
 	padding: 10px;
 	text-align: left;
-	&:first-child {
-		text-align: right;
-		width: 10em;
+	&:nth-child(-n+2) {
+		width: 5em;
 	}
 }
