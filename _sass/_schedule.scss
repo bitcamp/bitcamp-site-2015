@@ -7,6 +7,12 @@ table {
 	margin-top: $space;
 	margin-bottom: $space;
 	width: 800px;
+	@include media($tablet) {
+		max-width: 100%;
+	}
+	@include media($mobile) {
+		max-width: 100%;
+	}
 }
 
 tr {
