@@ -6,6 +6,7 @@ table {
 	margin: auto;
 	margin-top: $space;
 	margin-bottom: $space;
+	width: 800px;
 }
 
 tr {
@@ -23,5 +24,6 @@ td {
 	text-align: left;
 	&:first-child {
 		text-align: right;
+		width: 10em;
 	}
 }
