@@ -32,6 +32,11 @@ body {
 th {
 	font-family: $sans;	
 }
+table {
+	@include media($mobile) {
+		font-size: $tablet-font-size * .5;
+	}
+}
 
 // HEADINGS
 
