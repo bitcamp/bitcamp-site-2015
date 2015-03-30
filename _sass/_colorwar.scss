@@ -67,7 +67,7 @@
 			border-bottom: 2px solid $yellow-orange;
 			padding-bottom: .5em;
 			display: inline-block;
-			margin: auto 1em;
+			margin: 0 1em 1em;
 			text-transform: none;
 		}
 		@include media($tablet) {
