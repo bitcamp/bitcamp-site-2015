@@ -53,7 +53,11 @@
 		}
 
 	}
-
+	#how2 {
+		@include media($mobile) {
+			margin-top: $space;
+		}
+	}
 	.howitworks {
 		@include span-columns(6);
 		@include media($mobile) {
@@ -77,6 +81,11 @@
 		}
 	}
 
+	#prizes img {
+		margin-top: $space;
+		max-width: 80%;
+	}
+
 	#judges {
 		.judge {
 			@include span-columns(4);
@@ -86,11 +95,15 @@
 				margin-bottom: $space;
 			}
 			.judge-pic {
-				@include size(10em 10em);
+				@include size(16em 16em);
+				max-width: 80%;
 				margin: 0 auto 1em;
-				background-position: -10em 0;
 				background-size: auto 100%;
 				background-repeat: no-repeat;
+				@include media($tablet) {
+					background-position: -10em 0;
+					@include size(10em 10em);
+				}
 				&#ashley {
 					background-image: url("/img/colorwar/ashley.jpg");
 				}
