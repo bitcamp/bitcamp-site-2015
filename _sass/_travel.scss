@@ -1,0 +1,57 @@
+.travel {
+	section{
+		padding-top: $space;
+		padding-bottom: $space;
+	}	
+
+	.info {
+		text-align: left;
+	}
+
+	h1 {
+		color: $yellow-orange;
+		@include media($mobile) {
+			font-size: 3.5em;
+		}
+	}
+
+	h2 {
+		margin-bottom: $space;
+		color: $orange;
+	}
+
+	h3 {
+		margin-bottom: $space * 0.25;
+		margin-top: $space * 0.75;
+		font-size: 1em;
+	}
+
+	ol, .directions {
+		text-align: left;
+		list-style: decimal;
+		li {
+			padding: 5px;
+			margin-left: 1em;
+		}
+	}
+
+	a {
+		color: $orange;
+	}
+
+    .hero {
+        background: $dark-blue;
+        @include background-image("/img/photo-colorwar-edit.jpg");
+        padding: 4*$space 0;
+        margin-bottom: $space;
+
+        //img {
+         //   max-width: 80%;
+           // text-shadow: 10px 10px 5px $dark-blue;
+            //z-index: 1000;
+        //}
+    }
+
+
+	
+}
