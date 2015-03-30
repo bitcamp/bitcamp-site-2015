@@ -1,0 +1,28 @@
+#schedule {
+	padding-top: 0;
+}
+
+table {
+	margin: auto;
+	margin-top: $space;
+	margin-bottom: $space;
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid $yellow-orange;
+}
+thead {
+	border-bottom: 2px solid $yellow-orange;
+}
+th {
+	padding: 10px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+	text-align: left;
+	&:nth-child(-n+2) {
+		width: 5em;
+	}
+}

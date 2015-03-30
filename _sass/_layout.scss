@@ -29,6 +29,9 @@ section, .section {
   @include media($mobile) {
     max-width: 50%;
     margin: auto;
+	@include media($mobile) {
+		max-width: 100%;
+	}
   }
 }
 
@@ -51,7 +54,7 @@ section, .section {
   @extend %col;
   width: 25%;
   @include media($mobile) {
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -59,7 +62,7 @@ section, .section {
   @extend %col;
   width: 16.66666666%;
   @include media($mobile) {
-    width: 50%;
+    width: 30%;
   }
 }
 

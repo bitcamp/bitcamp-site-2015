@@ -27,6 +27,16 @@ body {
 	}
 }
 
+// TABLES
+
+th {
+	font-family: $sans;	
+}
+table {
+	@include media($mobile) {
+		font-size: $tablet-font-size * .5;
+	}
+}
 
 // HEADINGS
 
@@ -43,4 +53,10 @@ h2 {
 	font-family: $sans;
 	color: $dark-blue;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: $sans;
+	color: $dark-blue;
 }
