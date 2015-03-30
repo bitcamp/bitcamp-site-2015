@@ -3,7 +3,7 @@ table {
 	margin: auto;
 	margin-top: $space;
 	margin-bottom: $space;
-	width: 100%;
+	width: 90%;
 	color: $brown;
 }
 
@@ -23,6 +23,10 @@ td {
 	font-size: .75em;
 	text-align: left;
 	&:nth-child(-n+2) {
-		width: 5em;
+		//width: 5em;
+		width: 10%;
+	}
+	&:nth-child(3) {
+		width: 40%;
 	}
 }
