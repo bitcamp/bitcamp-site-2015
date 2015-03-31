@@ -47,6 +47,7 @@
 		}
 		a {
 			color: inherit;
+			text-decoration: underline;
 			&:hover {
 				color: $orange;
 			}
@@ -88,6 +89,9 @@
 
 	#judges {
 		.judge {
+			a {
+				text-decoration: none;
+			}
 			@include span-columns(4);
 			@include media($mobile) {
 				@include span-columns(4);
