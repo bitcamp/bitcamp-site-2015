@@ -1,0 +1,17 @@
+@include font-face("HOBO", "/fonts/Hobo/HoboStd");
+
+section, footer, body{
+	background-color: RED !important;
+	@include linear-gradient(to top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+}
+
+*{
+	color: yellow !important;
+	font-family: "HOBO" !important;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+
+}
