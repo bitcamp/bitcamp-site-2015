@@ -4,9 +4,11 @@ section, footer, body{
 	background-color: RED !important;
 	@include linear-gradient(to top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+}
+img{
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	
 }
 
 *{
