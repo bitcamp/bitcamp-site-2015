@@ -1,31 +1,34 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 127.744 105" style="enable-background:new 0 0 127.744 105;" xml:space="preserve">
-<g id="kivvik">
-	<g>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="793.7px" height="253.7px" viewBox="124.3 233.1 793.7 253.7" enable-background="new 124.3 233.1 793.7 253.7"
+	 xml:space="preserve">
+<g>
+	<g id="kivvik">
 		<g>
-			<path style="fill:#49B549;" d="M49,67.909C49,69.616,47.616,71,45.91,71H15.09C13.384,71,12,69.616,12,67.909V37.091
-				C12,35.384,13.384,34,15.09,34h30.82c1.707,0,3.09,1.384,3.09,3.091V67.909z"/>
-		</g>
-		<g>
-			<polygon style="fill:#FFFFFF;" points="27,50 27,43 21,43 21,50 21,56 21,63 27,63 27,56 34,56 34,50 			"/>
-			<rect x="34" y="43" style="fill:#FFFFFF;" width="7" height="7"/>
-			<rect x="34" y="56" style="fill:#FFFFFF;" width="7" height="7"/>
-		</g>
-		<g>
-			<path style="fill:#333333;" d="M60.822,54.012l-1.695,1.825v4.52h-3.26v-15.82h3.26v7.171l1.434-1.967l4.031-5.205h4.009
-				l-5.617,7.03l5.781,8.791h-3.879L60.822,54.012z"/>
-			<path style="fill:#333333;" d="M74.016,60.357h-3.26v-15.82h3.26V60.357z"/>
-			<path style="fill:#333333;" d="M83.438,56.434l3.586-11.898h3.629l-5.509,15.82h-3.401l-5.487-15.82h3.618L83.438,56.434z"/>
-			<path style="fill:#333333;" d="M98.544,56.434l3.586-11.898h3.629l-5.509,15.82h-3.401l-5.487-15.82h3.618L98.544,56.434z"/>
-			<path style="fill:#333333;" d="M111.27,60.357h-3.26v-15.82h3.26V60.357z"/>
-			<path style="fill:#333333;" d="M119.801,54.012l-1.695,1.825v4.52h-3.26v-15.82h3.26v7.171l1.434-1.967l4.031-5.205h4.009
-				l-5.617,7.03l5.781,8.791h-3.879L119.801,54.012z"/>
+			<g>
+				<path fill="#49B549" d="M378,465.7c0,11.7-9.5,21.2-21.2,21.2H145.5c-11.7,0-21.2-9.5-21.2-21.2V254.3
+					c0-11.7,9.5-21.2,21.2-21.2h211.3c11.7,0,21.2,9.5,21.2,21.2V465.7z"/>
+			</g>
+			<g>
+				<polygon fill="#FFFFFF" points="227.2,342.9 227.2,294.9 186,294.9 186,342.9 186,384 186,432 227.2,432 227.2,384 275.2,384 
+					275.2,342.9 				"/>
+				<rect x="275.2" y="294.9" fill="#FFFFFF" width="48" height="48"/>
+				<rect x="275.2" y="384" fill="#FFFFFF" width="48" height="48"/>
+			</g>
+			<g>
+				<path fill="#333333" d="M459.1,370.4l-11.6,12.5v31h-22.4V305.4h22.4v49.2l9.8-13.5l27.6-35.7h27.5l-38.5,48.2l39.6,60.3H487
+					L459.1,370.4z"/>
+				<path fill="#333333" d="M549.6,413.9h-22.4V305.4h22.4V413.9z"/>
+				<path fill="#333333" d="M614.2,387l24.6-81.6h24.9l-37.8,108.5h-23.3l-37.6-108.5h24.8L614.2,387z"/>
+				<path fill="#333333" d="M717.8,387l24.6-81.6h24.9l-37.8,108.5h-23.3l-37.6-108.5h24.8L717.8,387z"/>
+				<path fill="#333333" d="M805,413.9h-22.4V305.4H805V413.9z"/>
+				<path fill="#333333" d="M863.5,370.4l-11.6,12.5v31h-22.4V305.4h22.4v49.2l9.8-13.5l27.6-35.7h27.5l-38.5,48.2l39.6,60.3h-26.6
+					L863.5,370.4z"/>
+			</g>
 		</g>
 	</g>
-</g>
-<g id="Layer_1">
+	<g id="Layer_1_1_">
+	</g>
 </g>
 </svg>
