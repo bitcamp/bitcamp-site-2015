@@ -32,5 +32,11 @@
 	a {
 		color: $orange;
 	}
-	
+	ol {
+		text-align: left;
+		list-style: decimal;
+		li {
+			padding-bottom: 1em;
+		}
+	}	
 }
