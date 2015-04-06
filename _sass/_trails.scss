@@ -8,22 +8,41 @@
 		//}
 	}	
 	.hero {
-		//padding-top: 0;
 	}
 	.hero-info {
 		float: none;
 		margin: 0;
 	}
-	#hero-info-badge, #hero-info-logo {
+	#hero-info-logo {
 		float: none;
 		margin: auto;
 		text-align: center;
-			@include size(24em 24em);
+		@include size(24em 24em);
 		img {
 			@include size(24em 24em);
 			margin: auto;
 			text-align: center;
 		}
+		@include media($mobile) {
+			display: none;
+		}
+	}
+	#hero-info-badge {
+		display: none;
+		@include media($mobile) {
+			float: none;
+			margin: auto;
+			display: block;
+			text-align: center;
+			@include size(24em 24em);
+			img {
+				@include size(24em 24em);
+				margin: auto;
+			}
+		}
+	}
+	.hero-text {
+		display: block;
 	}
 	p {
 		line-height: 2;
