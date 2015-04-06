@@ -7,7 +7,24 @@
 		//	padding: 0 80px;
 		//}
 	}	
-
+	.hero {
+		//padding-top: 0;
+	}
+	.hero-info {
+		float: none;
+		margin: 0;
+	}
+	#hero-info-badge, #hero-info-logo {
+		float: none;
+		margin: auto;
+		text-align: center;
+			@include size(24em 24em);
+		img {
+			@include size(24em 24em);
+			margin: auto;
+			text-align: center;
+		}
+	}
 	p {
 		line-height: 2;
 		max-width: 80%;
