@@ -2,8 +2,6 @@
 
 .colorwar {
 
-	// background: $dark-blue;
-
 	section, .section {
 		padding-top: $space;
 		padding-bottom: $space;
@@ -32,10 +30,11 @@
 	}
 
 	#about {
-		p {
-			margin-bottom: 1.5em;
-		}
-		margin-bottom: 1em;
+	}
+
+	img.poweredby {
+		@include span-columns(6);
+		@include shift(3);
 	}
 
 	.info {
@@ -92,7 +91,7 @@
 			a {
 				text-decoration: none;
 			}
-			@include span-columns(4);
+			@include span-columns(3);
 			@include media($mobile) {
 				@include span-columns(4);
 				@include omega;
@@ -100,13 +99,16 @@
 			}
 			.judge-pic {
 				@include size(16em 16em);
-				max-width: 80%;
+				max-width: 100%;
 				margin: 0 auto 1em;
 				background-size: auto 100%;
 				background-repeat: no-repeat;
 				@include media($tablet) {
-					background-position: -10em 0;
-					@include size(10em 10em);
+					background-position: -8em 0;
+					@include size(8em 8em);
+				}
+				&#una {
+					background-image: url("/img/colorwar/una.jpg");
 				}
 				&#ashley {
 					background-image: url("/img/colorwar/ashley.jpg");
