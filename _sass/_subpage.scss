@@ -1,0 +1,12 @@
+.subpage {
+	#hero-info-logo {
+		float: none;
+		margin: auto;
+		@include media($mobile) {
+			&:after {
+				content: "";
+			}
+		}
+	}
+	
+}
