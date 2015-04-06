@@ -42,11 +42,13 @@
 	}
 	ol {
 		font-family: $sans;
+		color: $brown;
 		p {
 			font-family: $slab;
+			max-width: 100%;
 		}
 		text-align: left;
-		//list-style: decimal;
+		list-style: decimal;
 		max-width: 80%;
 		padding: 0 $space * 1/4;
 		margin: $space auto;
