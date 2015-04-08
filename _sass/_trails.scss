@@ -51,6 +51,9 @@
 			width: 9em;
 			margin: 2em;
 		}
+		img {
+				width: 9em;
+		}
 		@include media($mobile) {
 			display: none;
 		}
