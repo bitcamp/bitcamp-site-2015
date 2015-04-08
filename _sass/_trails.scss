@@ -80,10 +80,6 @@
 	}
 
 	h3 {
-		margin-bottom: $space * 0.25;
-		margin-top: $space * 0.75;
-		font-size: 1em;
-		color: $orange;
 	}
 	h4 {
 		font-family: $sans;
@@ -109,5 +105,9 @@
 		margin-left: $space;
 		margin-top: 1em;
 		list-style: square;
+		p {
+			//line-height: 1;
+			margin-left: 1em;
+		}
 	}
 }
