@@ -44,6 +44,7 @@
 		display: block;
 	}
 	.trails-navigation {
+		font-family: $slab;
 		margin-top: $space;
 		text-align: center;
 		.trail-flag {
@@ -89,8 +90,10 @@
 		font-family: $sans;
 		color: $brown;
 		p {
-			font-family: $slab;
+			font-family: $sans;
 			max-width: 100%;
+			// font-size: .65em;
+			font-size: .7em;
 		}
 		text-align: left;
 		list-style: decimal;
@@ -105,9 +108,13 @@
 		margin-left: $space;
 		margin-top: 1em;
 		list-style: square;
+		line-height: 1.6666666;
 		p {
-			//line-height: 1;
-			margin-left: 1em;
+			line-height: 1.666666;
+			// margin-left: 1em;
 		}
 	}
+}
+footer{
+	font-family: $slab;
 }
