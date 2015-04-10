@@ -24,6 +24,8 @@
 .link {
 	@extend .button;
 	background: url("/img/link.svg") center center no-repeat;
+	@include size(13.125em 3.25em);
+	margin: $space*1/2 auto 0;
 }
 
 .social-links {
