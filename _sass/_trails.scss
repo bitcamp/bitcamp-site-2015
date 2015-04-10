@@ -93,6 +93,8 @@
 	ol {
 		font-family: $sans;
 		color: $brown;
+		list-style-type: none;
+		padding-left: 0;
 		p {
 			font-family: $sans;
 			max-width: 100%;
