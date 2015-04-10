@@ -90,11 +90,16 @@
 		font-family: $sans;
 		color: $brown;
 	}
+	section {
+		ol{
+			list-style: none;
+		padding-left: 0;
+		}
+	}
 	ol {
 		font-family: $sans;
 		color: $brown;
-		list-style: none;
-		padding-left: 0;
+		
 		p {
 			font-family: $sans;
 			max-width: 100%;
