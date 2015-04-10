@@ -65,7 +65,10 @@
 				width: 8em;
 		}
 		@include media($mobile) {
-			display: none;
+			.trail-flag, img {
+				width: 6em;
+			}
+			//display: none;
 		}
 
 	}
