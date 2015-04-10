@@ -1,5 +1,10 @@
 .trails {
 	font-family: $sans;
+	.trails-map{
+		list-style: none;
+		margin-left: 0;
+
+	}
 	section {
 		@include outer-container;
 		@include clearfix;
@@ -89,12 +94,6 @@
 	h4 {
 		font-family: $sans;
 		color: $brown;
-	}
-	section {
-		ol{
-			list-style: none;
-		padding-left: 0;
-		}
 	}
 	ol {
 		font-family: $sans;
