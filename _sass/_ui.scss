@@ -21,6 +21,11 @@
   }
 }
 
+.link {
+	@extend .button;
+	background: url("/img/link.svg") center center no-repeat;
+}
+
 .social-links {
 
 }
