@@ -33,9 +33,9 @@
 			margin: auto;
 			display: block;
 			text-align: center;
-			@include size(24em 24em);
+			@include size(18em 18em);
 			img {
-				@include size(24em 24em);
+				@include size(18em 18em);
 				margin: auto;
 			}
 		}
