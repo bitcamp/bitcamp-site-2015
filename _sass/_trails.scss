@@ -9,6 +9,9 @@
 		@include outer-container;
 		@include clearfix;
 		padding: $space * 1/2;
+		a {
+			color: $orange;
+		}
 		//@include media($tablet) {
 		//	padding: 0 80px;
 		//}
