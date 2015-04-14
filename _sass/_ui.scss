@@ -67,3 +67,15 @@
 .square:after {
   margin-top: 100%;
 }
+.thanks{
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+}
+video{
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(../img/video/BitcampTimelapse11_10.jpg) no-repeat;
+background-size: cover;
+}
