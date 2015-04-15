@@ -1,10 +1,24 @@
+.wrapper {
+	height: 100%;
+	width: 100%;
+    @include media($mobile) {
+        @include background-image("/img/3dflame.jpg");          
+    }   
+}
 
 .thanks h1, .thanks {
     padding: 0;
     margin-top: 0;
 }
+
 .vert-align-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#bgvid {
+	@include media($mobile) {
+		display: none;
+	}
 }
