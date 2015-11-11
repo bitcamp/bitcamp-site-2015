@@ -39,8 +39,19 @@
   padding-right: 15px;
 }
 
-.tree-container {
-  
+.tree-svg {
+  height: 18vh;
+  position: absolute;
+}
+
+.trees {
+  bottom: 20vh;
+  left: 70vw;
+}
+
+.logs {
+  bottom: 19.5vh;
+  left: 10vw;
 }
 
 footer {
@@ -57,4 +68,10 @@ footer p {
 footer.section {
   max-width: 100vw;
   padding: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .trees {
+    display: none;
+  }
 }

@@ -3,21 +3,17 @@
 /* Dumping styles for mailchimp here. */
 .mc_input {
   color: #000000;
-  padding: 18px;
   padding-left: 10px;
   height: 30px;
   border: none;
   font-family: 'avenir';
+  font-style: italic;
 }
 
 .mc_button {
-  postion: absolute;
-  padding-top: 3px;
-  padding-bottom: 7px;
   margin-left: 5px;
   background-color: #FF6F3F;
   border: none;
-  margin-top: 10px;
 }
 
 .mc_button_inside {
@@ -36,6 +32,17 @@
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  margin-top: 15px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 720px) {
+  .mc_button {
+    padding-top: 3px;
+    padding-bottom: 7px;
+  }
+
+  .mc_input {
+    padding: 18px;
+  }
 }
 
