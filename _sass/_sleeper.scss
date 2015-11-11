@@ -74,4 +74,14 @@ footer.section {
   .trees {
     display: none;
   }
+
+  .logs {
+    height: 14vh;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .logs {
+    height: 12vh;
+  }
 }
