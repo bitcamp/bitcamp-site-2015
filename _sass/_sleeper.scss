@@ -76,12 +76,10 @@ footer.section {
   }
 
   .logs {
-    height: 14vh;
-  }
-}
-
-@media screen and (max-height: 480px) {
-  .logs {
     height: 12vh;
+  }
+
+  .signup-container {
+    bottom: 50vh;
   }
 }
