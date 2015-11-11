@@ -7,12 +7,14 @@ layout: sleeper
 {% include _alex_analytics.html %}
 
 <div class="sky">
-  <canvas class="sky-background">
+  <canvas class="sky-background" id="sky-canvas">
   </canvas>
   <div class="bitcamp-logo-container">
-    <img class="bitcamp-logo"
-      src="{{ site.baseurl }}/img/bitcamp-logo-text-orange.svg"
-    />
+    <a href="{{ site.baseurl }}">
+      <img class="bitcamp-logo"
+        src="{{ site.baseurl }}/img/bitcamp-logo-text-orange.svg"
+      />
+    </a>
   </div>
   <div class="signup-container">
     <div class="signup-text">
