@@ -1,0 +1,40 @@
+/* Copyright (c) 2015 Bitcamp */
+
+/* Dumping styles for mailchimp here. */
+.mc_input {
+  color: #000000;
+  padding: 18px;
+  padding-left: 10px;
+  height: 30px;
+  border: none;
+  font-weight: 400;
+}
+
+.mc_button {
+  postion: absolute;
+  padding: 4px;
+  margin-left: 5px;
+  background-color: #FF6F3F;
+  border: none;
+  margin-top: 10px;
+}
+
+.mc_button_inside {
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+#mc_embed_signup {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+

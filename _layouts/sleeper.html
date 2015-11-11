@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head-sleeper.html %}
+
+  <body class="{% if page.class %}{{ page.class }}{% endif %}">
+
+    {{ content }}
+
+    {% include _js.html %}
+
+    {% include footer.html %}
+
+  </body>
+</html>
