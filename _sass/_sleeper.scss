@@ -70,21 +70,7 @@ footer.section {
   padding: 0;
 }
 
-@media screen and (max-width: 720px){
-  .trees {
-    display: none;
-  }
-
-  .logs {
-    height: 12vh;
-  }
-
-  .signup-container {
-    bottom: 50vh;
-  }
-}
-
-@media screen and (max-device-width: 720px) {
+@media all and (max-device-width: 720px){
   .trees {
     display: none;
   }
