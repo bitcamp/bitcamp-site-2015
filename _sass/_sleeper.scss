@@ -83,3 +83,17 @@ footer.section {
     bottom: 50vh;
   }
 }
+
+@-webkit-media screen and (max-width: 720px) and (max-device-width: 720px) {
+  .trees {
+    display: none;
+  }
+
+  .logs {
+    height: 12vh;
+  }
+
+  .signup-container {
+    bottom: 50vh;
+  }
+}

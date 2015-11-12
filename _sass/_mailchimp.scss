@@ -45,3 +45,10 @@
     padding-bottom: 14px;
   }
 }
+
+@-webkit-media screen and (max-width: 720px) and (max-device-width: 720px) {
+  .mc_input {
+    padding-top: 19px;
+    padding-bottom: 14px;
+  }
+}
