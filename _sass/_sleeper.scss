@@ -70,7 +70,8 @@ footer.section {
   padding: 0;
 }
 
-@media all and (max-device-width: 720px){
+@media screen and (max-device-width: 720px),
+screen and (max-width: 720px){
   .trees {
     display: none;
   }
