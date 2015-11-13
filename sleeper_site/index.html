@@ -7,7 +7,7 @@ layout: sleeper
 {% include _alex_analytics.html %}
 
 <div class="sky">
-  <canvas class="sky-background" id="sky-canvas">
+  <canvas class="sky-background" id="sky-canvas" onload="draw()">
   </canvas>
   <div class="bitcamp-logo-container">
     <a href="{{ site.baseurl }}">
@@ -27,7 +27,7 @@ layout: sleeper
     </div>
     {% include mailchimp_signup.html %}
   </div>
-  <div>
+  <div class="svg-container">
     <img class="tree-svg logs"
         src="{{ site.baseurl }}/img/sleeper-logs.svg"
       />
