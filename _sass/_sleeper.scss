@@ -7,10 +7,11 @@
   height: 80vh;
 }
 
-.sky-background {
+#sky-canvas {
   background-color: #1A2E33;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+  height: 80vh;
+  z-index: -1;
 }
 
 .signup-text {
@@ -94,6 +95,6 @@ screen and (max-width: 720px){
 
 @media screen and (min-width: 1px) {
   body {
-    font-size: inherit;
+    font-size: 100%;
   }
 }

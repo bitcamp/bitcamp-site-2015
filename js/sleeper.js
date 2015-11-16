@@ -1,12 +1,69 @@
-// Copyright (c) 2015, Bitcamp
+// Copyright (c) 2015 Bitcamp
 
-function draw(){
-  var canvas = document.getElementById('sky-canvas');
-  var context = canvas.getContext();
+var STAR_SIZE = 12;
+var STAR_LOCATIONS = [[120,320],
+                      [120,775],
+                      [400,475],
+                      [525,225],
+                      [805,850],
+                      [930,340],
+                      [1200,200],
+                      [1325,800],
+                      [1525,350],
+                      [1825,580],
+                      [1975,175],
+                      [2050,750]];
 
-  context.font = "30px Arial";
-  context.fillStyle = "#FFFFFF";
-  context.fillText(".",100,100);
+$(document).ready(
+  function () {
+    drawSky();
+  }
+);
 
+function getPixelRatio(canvasContext) {
+  devicePixelRatio = window.devicePixelRatio || 1;
+  backingStoreRatio = canvasContext.webkitBackingStorePixelRatio ||
+    canvasContext.mozBackingStorePixelRatio ||
+    canvasContext.msBackingStorePixelRatio ||
+    canvasContext.oBackingStorePixelRatio ||
+    canvasContext.backingStorePixelRatio || 1;
+  return devicePixelRatio / backingStoreRatio; 
+}
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function drawSky() {
+  var canvasDom = $('#sky-canvas');
+  var canvas = canvasDom[0];
+  var context = canvas.getContext('2d');
+
+  // Increase canvas size to make it HiDPI, so that lines are sharp
+  var renderedHeight = canvasDom.height();
+  var renderedWidth = canvasDom.width();
+  var pixel_ratio = getPixelRatio(context); 
+
+  canvas.height = renderedHeight * pixel_ratio;
+  canvas.width = renderedWidth * pixel_ratio;
   
+  var adjust_x_ratio = canvas.width/2180;
+  var adjust_y_ratio = canvas.height/980;
+
+  // Loop over star coordinates to generate and draw rectangles for stars
+  // 
+  context.fillStyle = '#FFFFFF';
+  STAR_LOCATIONS.forEach(
+    function(element, index, array){
+      var x = element[0] + getRandomInt(-30, 30);
+      var y = element[1] + getRandomInt(-30, 30);
+      context.fillRect(
+        x * adjust_x_ratio,
+        y * adjust_y_ratio,
+        STAR_SIZE,
+        STAR_SIZE
+      );
+    }
+  );
+
 }
