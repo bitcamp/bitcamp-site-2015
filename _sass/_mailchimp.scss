@@ -8,8 +8,8 @@
   border: none;
   font-family: 'avenir';
   font-style: italic;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 19px;
+  padding-bottom: 14px;
 }
 
 .mc_button {
@@ -34,12 +34,4 @@
 
 .mc-div {
   margin: 25px 0 0 0;
-}
-
-@media screen and (max-device-width: 720px),
-screen and (max-width: 720px){
-  .mc_input {
-    padding-top: 19px;
-    padding-bottom: 14px;
-  }
 }
