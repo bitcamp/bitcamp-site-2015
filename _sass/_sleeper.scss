@@ -19,15 +19,15 @@
 }
 
 .bitcamp-logo {
-  width: 50%;
+  height: 8.79146vh;
+  display: block;
 }
 
 .bitcamp-logo-container {
   position: absolute;
   background: transparent;
   top: 9vh;
-  left: 5vh;
-  width: 30vw;
+  left: 10vw;
 }
 
 .signup-container {
@@ -85,6 +85,10 @@ footer.section {
 
   .logs {
     height: 12vh;
+  }
+
+  .bitcamp-logo {
+    height: 6.59359vh;
   }
 
   .signup-container {
