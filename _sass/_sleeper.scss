@@ -27,32 +27,32 @@
   position: absolute;
   background: transparent;
   top: 9vh;
-  left: 10vw;
 }
 
 .signup-container {
   background: transparent;
   position: relative;
   color: #FFFFFF;
-  bottom: 45vh;
+  bottom: 48vh;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .tree-svg {
-  height: 18vh;
+  height: 15vh;
   position: absolute;
 }
 
 .trees {
   bottom: 20vh;
   left: 70vw;
+  display: none;
+  bottom: 20vh;
 }
 
 .logs {
-  bottom: 19.53125vh;
-  left: 10vw;
+  bottom: 19.5vh;
 }
 
 .social-links {
@@ -76,6 +76,12 @@ footer.section {
   max-width: 100vw;
   padding: 0;
   width: 100vw;
+}
+
+.center-abs-position {
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 @media screen and (max-width: 720px){
