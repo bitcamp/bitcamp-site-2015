@@ -27,6 +27,7 @@
   background: transparent;
   top: 9vh;
   left: 5vh;
+  width: 30vw;
 }
 
 .signup-container {
@@ -91,9 +92,27 @@ footer.section {
   }
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 1080px) {
   .signup-text {
-    font-size: 24px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+  .signup-text {
+    font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  .signup-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-text {
+    font-size: 18px;
   }
 }
 
