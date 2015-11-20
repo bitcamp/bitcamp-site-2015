@@ -7,15 +7,15 @@
   height: 30px;
   border: none;
   font-family: 'avenir';
-  font-style: italic;
-  padding-top: 19px;
-  padding-bottom: 14px;
+  padding-top: 18px;
+  padding-bottom: 16px;
 }
 
 .mc_button {
   margin-left: 5px;
   background-color: #FF6F3F;
   border: none;
+  font-family: 'avenir';
 }
 
 .mc_button_inside {
@@ -23,9 +23,8 @@
   background: transparent;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
-  padding-top: 3px;
-  padding-bottom: 4px;
+  padding-top: 6px;
+  padding-bottom: 5px;
 }
 
 .hidden {
