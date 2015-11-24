@@ -9,6 +9,7 @@
   font-family: 'avenir';
   padding-top: 18px;
   padding-bottom: 16px;
+  max-width: 44vw;
 }
 
 .mc_button {
@@ -16,6 +17,9 @@
   background-color: #FF6F3F;
   border: none;
   font-family: 'avenir';
+  max-width: 42vw;
+  padding-top: 6px;
+  padding-bottom: 5px;
 }
 
 .mc_button_inside {
@@ -23,8 +27,6 @@
   background: transparent;
   text-transform: uppercase;
   font-weight: 700;
-  padding-top: 7px;
-  padding-bottom: 4px;
 }
 
 .hidden {

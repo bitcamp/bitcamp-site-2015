@@ -126,6 +126,16 @@ footer.section {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .social-links {
+    margin-top: 1.4vh;
+  }
+
+  .copy {
+    margin: 0;
+  }
+}
+
 @media screen and (min-width: 1px) {
   body {
     font-size: 100%;

@@ -1,6 +1,6 @@
 // Copyright (c) 2015 Bitcamp
 
-var STAR_SIZE = 12;
+var BASE_STAR_SIZE = 12;
 var STAR_LOCATIONS = [[120,320],
                       [120,775],
                       [400,475],
@@ -13,6 +13,8 @@ var STAR_LOCATIONS = [[120,320],
                       [1825,580],
                       [1975,175],
                       [2050,750]];
+var ADJUST_X = 2180;
+var ADJUST_Y = 980;
 
 $(document).ready(
   function () {
@@ -47,8 +49,8 @@ function drawSky() {
   canvas.height = renderedHeight * pixel_ratio;
   canvas.width = renderedWidth * pixel_ratio;
   
-  var adjust_x_ratio = canvas.width/2180;
-  var adjust_y_ratio = canvas.height/980;
+  var adjust_x_ratio = canvas.width/ADJUST_X;
+  var adjust_y_ratio = canvas.height/ADJUST_Y;
 
   // Loop over star coordinates to generate and draw rectangles for stars
   // 
@@ -60,8 +62,8 @@ function drawSky() {
       context.fillRect(
         x * adjust_x_ratio,
         y * adjust_y_ratio,
-        STAR_SIZE,
-        STAR_SIZE
+        BASE_STAR_SIZE * adjust_x_ratio,
+        BASE_STAR_SIZE * adjust_x_ratio
       );
     }
   );
