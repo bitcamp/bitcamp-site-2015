@@ -4,11 +4,11 @@
 .mc_input {
   color: #000000;
   padding-left: 10px;
-  height: 30px;
   border: none;
   font-family: 'avenir';
   max-width: 44vw;
   height: 40px;
+  padding-top: 2px;
 }
 
 .mc_button {
@@ -18,9 +18,8 @@
   font-family: 'avenir';
   max-width: 42vw;
   height: 40px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .mc_button_inside {
@@ -29,6 +28,9 @@
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  line-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hidden {
