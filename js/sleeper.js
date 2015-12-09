@@ -25,11 +25,10 @@ $(document).ready(
 
 // Hides logs if device screen is too short to display properly.
 // Render logs properly on iOS.
-window.addEventListener("resize", function(){fixLogs()}, false);
+window.addEventListener("resize", function(){fixLogs();setTimeout(drawSky, 200);}, false);
 function fixLogs() {
   var height = $(window).height();
-
-  if(height <= 360) {
+  if(height <= 375) {
     $('.logs').hide();
   } else {
     $('.logs').show();
@@ -38,7 +37,11 @@ function fixLogs() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
   
   if(userAgent.match(/i(Pad|Phone|Pod|OS)/i)) {
-    $('.logs').css('bottom', height * 0.195);
+    $('.logs').css('bottom', height * .195);
+    $('footer').css('height', height * 0.2);
+    $('.sky').css('height', height * 0.8);
+    $('#sky-canvas').css('height', height * 0.8);
+    $('.signup-container').css('bottom', height * 0.49);
   }
 }
 
