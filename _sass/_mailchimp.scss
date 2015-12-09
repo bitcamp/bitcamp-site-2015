@@ -6,9 +6,11 @@
   padding-left: 10px;
   border: none;
   font-family: 'avenir';
-  max-width: 44vw;
   height: 40px;
-  line-height: 40px;
+  width: 150px;
+  position: absolute;
+  left: 10px;
+  top: 0;
 }
 
 .mc_button {
@@ -16,7 +18,6 @@
   background-color: #FF6F3F;
   border: none;
   font-family: 'avenir';
-  max-width: 42vw;
   height: 40px;
   text-transform: uppercase;
   font-weight: 700;
@@ -24,6 +25,10 @@
   padding-top: 0;
   padding-bottom: 0;
   line-height: 40px;
+  max-width: 160px;
+  position: absolute;
+  left: 160px;
+  top: 0;
 }
 
 .hidden {
@@ -31,7 +36,16 @@
 }
 
 .mc-div {
-  margin: 25px 0 0 0;
+  margin: 0 auto;
+  height: 40px;
+  position: relative;
+  line-height: 40px;
+  width: 320px;
+}
+
+.form-container {
+  margin-top: 25px;
+  text-align: center;
 }
 
 /* Prevent iOS styles from being rendered */
