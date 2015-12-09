@@ -7,6 +7,9 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 500);
+
+        window.location.href = location.protocol + '//' + location.host + location.pathname + $(this).attr('href');
+
         return false;
       }
     }
