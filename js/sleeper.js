@@ -19,8 +19,26 @@ var ADJUST_Y = 980;
 $(document).ready(
   function () {
     drawSky();
+    fixLogs();
   }
 );
+
+// Hides logs if device screen is too short to display properly.
+// Render logs properly on iOS.
+window.addEventListener("resize", function(){fixLogs()}, false);
+function fixLogs() {
+  var height = $(window).height();
+
+  if(height <= 360) {
+    $('.logs').hide();
+  } else {
+    $('.logs').show();
+  }
+
+  if(!!navigator.userAgent.match(/i(Pad|Phone|Pod|OS)/i)) {
+    $('.logs').css('bottom', height * 0.195);
+  }
+}
 
 function getPixelRatio(canvasContext) {
   devicePixelRatio = window.devicePixelRatio || 1;
