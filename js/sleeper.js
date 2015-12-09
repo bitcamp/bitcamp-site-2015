@@ -35,7 +35,9 @@ function fixLogs() {
     $('.logs').show();
   }
 
-  if(!!navigator.userAgent.match(/i(Pad|Phone|Pod|OS)/i)) {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  if(userAgent.match(/i(Pad|Phone|Pod|OS)/i)) {
     $('.logs').css('bottom', height * 0.195);
   }
 }
