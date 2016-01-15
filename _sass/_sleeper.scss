@@ -27,12 +27,6 @@
   font-size: 18px;
 }
 
-/* unvisited link */
-a:link {
-  color: #FF0000;
-}
-
-/* visited link */
 a:link,a:visited,a:hover,a:active {
   color: #FFFFFF;
   text-decoration: underline;
