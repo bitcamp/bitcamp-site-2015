@@ -22,6 +22,22 @@
   line-height: 130%;
 }
 
+.sponsorship-inquiries {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:link,a:visited,a:hover,a:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 .bitcamp-logo {
   height: 8.79146vh;
   display: block;
@@ -100,11 +116,19 @@ footer.section {
   .signup-text {
     font-size: 33px;
   }
+  
+  .sponsorship-inquiries {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 720px) and (max-width: 1080px) {
   .signup-text {
     font-size: 30px;
+  }
+  
+  .sponsorship-inquiries {
+    font-size: 16px;
   }
 }
 
@@ -112,11 +136,19 @@ footer.section {
   .signup-text {
     font-size: 26px;
   }
+  
+  .sponsorship-inquiries {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .signup-text {
     font-size: 18px;
+  }
+  
+  .sponsorship-inquiries {
+    font-size: 14px;
   }
 
   #mlh-trust-badge {
