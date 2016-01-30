@@ -41,7 +41,8 @@ function fixLogs() {
     $('footer').css('height', height * 0.2);
     $('.sky').css('height', height * 0.8);
     $('#sky-canvas').css('height', height * 0.8);
-    $('.signup-container').css('bottom', height * 0.49);
+    $('.signup-container').css('bottom', height * 0.52);
+    $('.date-container').css('bottom', height * 0.62);
   }
 }
 
