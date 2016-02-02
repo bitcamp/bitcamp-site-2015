@@ -36,14 +36,12 @@ function fixLogs() {
 
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
   
-  if(userAgent.match(/i(Pad|Phone|Pod|OS)/i)) {
-    $('.logs').css('bottom', height * .195);
-    $('footer').css('height', height * 0.2);
-    $('.sky').css('height', height * 0.8);
-    $('#sky-canvas').css('height', height * 0.8);
-    $('.signup-container').css('bottom', height * 0.52);
-    $('.date-container').css('bottom', height * 0.62);
-  }
+  $('.logs').css('bottom', height * .195);
+  $('footer').css('height', height * 0.2);
+  $('.sky').css('height', height * 0.8);
+  $('#sky-canvas').css('height', height * 0.8);
+  $('.signup-container').css('bottom', height * 0.52);
+  $('.date-container').css('bottom', height * 0.62);
 }
 
 function getPixelRatio(canvasContext) {
