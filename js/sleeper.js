@@ -28,7 +28,13 @@ $(document).ready(
 window.addEventListener("resize", function(){fixLogs();setTimeout(drawSky, 200);}, false);
 function fixLogs() {
   var height = $(window).height();
-  if(height <= 375) {
+  var width = $(window).width();
+  var aspect_ratio = width * 1.0 / height * 1.0;
+  console.log(height);
+  if( (width > 1080 && height < 625)
+    || (width > 720 && height < 580)
+    || (width > 480 && height < 505)
+    || (width > 360 && height < 445)) {
     $('.logs').hide();
   } else {
     $('.logs').show();
