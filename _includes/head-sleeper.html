@@ -1,44 +1,60 @@
 <head>
-<!--
+  <!--
 
-////.         ://`   `.`                                                        
-  -++.         .:-`   /+.                                                        
-  .++-.-::-` `----  -:++:--`  .-:::-.  `.-:::-`   ----`-::-``-:::-`  .---`.-::-` 
+////.         ://`   `.`
+  -++.         .:-`   /+.
+  .++-.-::-` `----  -:++:--`  .-:::-.  `.-:::-`   ----`-::-``-:::-`  .---`.-::-`
   .++/-.-/+/``./++  .:++:--``/+/-.-+/  -/-..:+/.  .-++/-.-+//:.-/+/  .-++/:..:++.
   .++.   `++:  :++   -++.   /+/`   ..     ``.++:   `++-   /+/   -++`  `++:    /+/
   .++.   `++:  :++   -++.   /+/        -//:::++:   `++-   /+/   -++`  `++:    /+/
   .++-  `:+/.  :++`  .++-`` -++-` `.. -++`  .++:   .++:   /+/`  -++.  `++/` `-++-
-  .///////:` ./////:  :////` .://///- `:////-:/// ://///` :///- -//// `++/////:. 
-                                                                    `.++:.      
-                                                                    -/////`     
+  .///////:` ./////:  :////` .://///- `:////-:/// ://///` :///- -//// `++/////:.
+                                                                    `.++:.
+                                                                    -/////`
 -->
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="bitcamp">
-  <meta property="og:title" content="Bitcamp 2016">
-  <meta property="og:site_name" content="Bitcamp">
-  <meta property="og:url" content="http://bitca.mp/">
-  <meta property="og:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!">
-  <meta property="og:image" content="http://bitca.mp/img/facebook-share-link.png" />
-  <meta property="og:type" content="website">
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta name="description" content="bitcamp" />
+  <meta property="og:title" content="Bitcamp 2016" />
+  <meta property="og:site_name" content="Bitcamp" />
+  <meta property="og:url" content="http://2015.bit.camp/" />
+  <meta
+    property="og:description"
+    content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!"
+  />
+  <meta
+    property="og:image"
+    content="http://2015.bit.camp/img/facebook-share-link.png"
+  />
+  <meta property="og:type" content="website" />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://bitca.mp/">
-  <meta name="twitter:title" content="Bitcamp 2016">
-  <meta name="twitter:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!">
-  <meta name="twitter:image" content="http://bitca.mp/img/twitter-share-link.png">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="http://2015.bit.camp/" />
+  <meta name="twitter:title" content="Bitcamp 2016" />
+  <meta
+    name="twitter:description"
+    content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!"
+  />
+  <meta
+    name="twitter:image"
+    content="http://2015.bit.camp/img/twitter-share-link.png"
+  />
 
-  <link rel="stylesheet" href="{{ "/css/sleeper.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/sleeper.css" | prepend: site.baseurl
+  }}">
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
 
-  <link rel="icon" type="image/png"
-    href="{{ "/favicon.ico"| prepend: site.baseurl }}">
-    <script
-      src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-    </script>
-    <script src="{{ site.baseurl }}/js/sleeper.js"></script>
+  <link rel="icon" type="image/png" href="{{ "/favicon.ico"| prepend:
+  site.baseurl }}">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/js/sleeper.js"></script>
 </head>
